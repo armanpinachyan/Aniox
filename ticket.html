@@ -1,0 +1,320 @@
+ <!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#00CF91">
+  <meta name="msapplication-navbutton-color" content="#00CF91">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="#00CF91">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="android-chrome-192x192.png">
+  <meta name="msapplication-config" content="browserconfig.xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+  <script src="js/input-mask.js"></script>
+  <title>Ticket</title>
+</head>
+<body class="ticket">
+
+<nav class="navbar">
+  <div class="navbar-content">
+    <a href="index.html">
+      <img src="assets/images/logo-site.svg" alt="logo site">
+    </a>
+
+
+    <div class="navbar-usr-info">
+      <a href="#">
+        <div class="rocket-icon">
+          <img src="assets/icons/rocket.svg" alt="rocket" class="rocket-icon-green">
+          <img src="assets/icons/rocket-black.svg" alt="rocket" class="rocket-icon-black">
+        </div>
+      </a>
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="help"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/energi.svg" alt="energi" class="profile-dropdowns-toggle-icon">
+            Мастер быстрой настройки
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/book.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            База знаний Ainox
+          </a>
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/send-message.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Поддержка в Telegram
+          </a>
+          <a href="ticket-message.html" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/help.svg" alt="help" class="profile-dropdowns-toggle-icon">
+            Диалоги с поддержкой
+          </a>
+          <a href="new-ticket.html" class="menu-btn">
+            <button class="btn-black">
+              <img src="assets/icons/quation.svg" alt="quation" class="profile-dropdowns-toggle-icon">
+              Создать обращение
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="user-profile"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Ночной режим
+          </div>
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Выйти
+          </div>
+          <div class="profile-dropdowns-toggle-item btn-delete-account">
+            <img src="assets/icons/remove-account.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Удалить аккаунт
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container ticket-container">
+
+  <div class="alert success request-box">
+    <p>
+      Запрос создан. Вернемся с ответом на ваш e-mail <a href="#">admin@zhar-ptica.ru</a>
+    </p>
+    <i class="icon" data-name="close"></i>
+  </div>
+
+    <div class="chat">
+      <a href="ticket-message.html">
+        <button class="btn-transparent btn-transparent-ticket">
+          <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+          Техническая поддержка
+        </button>
+      </a>
+      <h2 class="heading-ticket">Как я могу оформить договор и платить вам еще больше денег если у меня миллион подписчиков?
+      </h2>
+      <div class="submissions">
+            <button class="btn-status wait">
+              <i class="icon" data-name="loading"></i>
+              Ожидает ответ
+            </button>
+            <a href="#">
+              <img src="assets/icons/check-mark.svg" alt="check">
+              CS-999999999
+            </a>
+      </div>
+      <div class="watch-box">
+        <img src="assets/icons/watch.svg" alt="watch">
+        <span>На связи в рабочие дни с 09:00 до 18:00 по Московскому времени</span>
+      </div>
+      <div class="wrapper wrapper-ticket">
+        <div class="messages">
+          <div class="message">
+            <div class="message-ticket">
+                <p>Допишу комментарий, как будто забыл сказать что-то важное</p>
+            </div>
+            <div class="user">
+              <div class="user-about">
+              <h4 class="user-name">Иван Иванов</h4>
+              <span class="data-message">20 мая 2023 г. в 16:00</span>
+              </div>
+              <div class="user-image">
+                <img src="assets/icons/user-image.svg" alt="user-image">
+              </div>
+            </div>
+          </div>
+          <div class="message">
+            <div class="message-ticket">
+                <p>Спасибо! Еще вопрос. Горько ли в жопе у слона? Я просто пишу этот текст, чтобы сделать макет чуть-чуть пошире и посмотреть как это добро будет скролиться</p>
+            </div>
+            <div class="user">
+              <div class="user-about">
+              <h4 class="user-name">Иван Иванов</h4>
+              <span class="data-message">20 мая 2023 г. в 16:00</span>
+              </div>
+              <div class="user-image">
+                <img src="assets/icons/user-image.svg" alt="user-image">
+              </div>
+            </div>
+          </div>
+          <div class="my-message">
+            <div class="my-message-ticket">
+              <p>
+                Никаких проблем! Просто подпишите договор и отправьте его по адресу: Москва, Мира 111. Файл с договором прикрепляю. Во
+                <a class="link-blue" href="#">инструкция.</a>
+              </p>
+            </div>
+            <button class="file-download">
+              <span>
+                <img class="pdf-icon" src="assets/icons/file-pdf.svg" alt="file">
+                Договор с супер важным хреном.pdf
+              </span>
+              <img class="download-icon" src="assets/icons/download.svg" alt="download">
+            </button>
+            <div class="my-user">
+              <div class="my-user-image">
+                <img src="assets/icons/user-image.svg" alt="user-image">
+              </div>
+              <div class="my-user-about">
+                <h4 class="my-user-name">Иван Иванов</h4>
+                <span class="my-data-message">20 мая 2023 г. в 16:00</span>
+              </div>
+            </div>
+          </div>
+          <div class="message">
+          <div class="message-ticket">
+            <p>Дело вот в чем, я какой-то супер-крутой чувак и у меня миллионы подписчиков. Хочу оформить с вами бумажный договор. Что для этого нужно? Мой сайт
+              <a class="link-blue" href="#">https://zhar-ptica.ru.</a>
+            </p>
+          </div>
+          <div class="user">
+            <div class="user-about">
+              <h4 class="user-name">Иван Иванов</h4>
+              <span class="data-message">20 мая 2023 г. в 16:00</span>
+            </div>
+            <div class="user-image">
+              <img src="assets/icons/user-image.svg" alt="user-image">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="contacts">
+          <h2>Ваши контакты для связи</h2>
+          <a class="contacts-email"  href="#">
+            <img src="assets/icons/mail.svg" alt="mail">
+            admin@zhar-ptica.ru</a>
+          <a class="contacts-number" href="#">
+            <img src="assets/icons/phone.svg" alt="phone">
+            +7 999 123-45-67</a>
+          <p>Диалог создан 20 мая 2023 Г. в 15:43 с номером CS-999999999</p>
+        </div>
+      </div>
+      <div class="footer-btn-ticket">
+        <label class="fields-ticket">
+          <input type="submit" class="submit-ticket" value="Опишите вашу проблему...">
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+<div class="new-request ">
+  <div class="modal-delete-new-ticket"></div>
+  <div class="form">
+
+    <div class="form-inputs form-inputs-ticket">
+
+      <div class="form-heading">
+        <span>Новый запрос</span>
+        <div class="icons">
+          <img class="X botom-left" src="assets/icons/bottom-left-arrow.svg" alt="botom-left">
+          <img class="exit-newRequest" src="assets/icons/X.svg" alt="X">
+        </div>
+      </div>
+
+      <div class="form-input-box form-input-box-ticket">
+        <span class="title">Введите свой запрос</span>
+        <div class="subject">
+          <label class="textarea-fields">
+            <!--          <span class="def-fields-title">Тема</span>-->
+            <textarea name="subject-textarea" id="Description" placeholder="Опишите вашу проблему..." ></textarea>
+          </label>
+        </div>
+      </div>
+      <div class="todos-switch todos-switch-ticket">
+      <div class="todos">
+        <div class="todo-item">
+          Документ.pdf
+          <img class="fa-trash" src="assets/icons/fa-trash.svg" alt="trash">
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="footer-buttons">
+      <label class="btn-white footer-buttons-btn">
+        <img class="footer-img-file active" src="assets/icons/loading-icon.svg" alt="loading">
+        <img class="footer-img-loading" src="assets/icons/loading.svg" alt="arrow">
+        <input type="file" class="input-loading d-none" multiple="multiple" accept="image/png, image/jpeg, image/jpg, application/pdf">
+        Загрузить
+      </label>
+      <a href="ticket.html">
+        <button class="btn-green footer-buttons-btn-green">
+          Отправить запрос
+          <img src="assets/icons/arrow-right.svg" alt="arrow-right">
+        </button>
+      </a>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="upload-box">
+  <img src="assets/images/upload.png" alt="uplaod">
+</div>
+
+
+<div class="modal-delete-account">
+  <div class="modal-delete-account-body"></div>
+  <div class="modal-form">
+    <h2 class="modal-form-heading">Подтвердите удаление аккаунта</h2>
+    <p class="modal-form-title">Все данные об аккаунте будут незамедлительно удалены. Восстановление не возможно.</p>
+    <div class="wrapper wrapper-modal-form">
+      <span>Подтвердите удаление</span>
+      <div class="switch-modal">
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+        <p>Подтверждаю удаление аккаунта без возможности восстановления.</p>
+      </div>
+      <div class="switch-modal switch-modal-mobile">
+        <p>Подтверждаю удаление аккаунта без возможности восстановления.</p>
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+      </div>
+    </div>
+    <div class="modal-buttons">
+      <button class="close-modal">
+        <img src="assets/icons/X.svg" alt="X">
+        Отмена
+      </button>
+      <button class="btn-delete">
+        Удалить аккаунт
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="js/mask-data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/ticket.js"></script>
+</body>
+</html>

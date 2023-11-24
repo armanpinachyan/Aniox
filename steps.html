@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#00CF91">
+  <meta name="msapplication-navbutton-color" content="#00CF91">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="#00CF91">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="android-chrome-192x192.png">
+  <meta name="msapplication-config" content="browserconfig.xml"/>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.2.1/js/intlTelInput.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.2.1/css/intlTelInput.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+  <script src="js/input-mask.js"></script>
+  <title>Steps</title>
+</head>
+<body class="step-page">
+
+<nav class="navbar">
+  <div class="navbar-content">
+    <div class="navbar-content-logo-menu">
+      <div class="mobile-menu-board">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a href="index.html">
+        <img src="assets/images/logo-site.svg" alt="logo site">
+      </a>
+    </div>
+
+
+    <div class="navbar-usr-info">
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="help"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/energi.svg" alt="energi" class="profile-dropdowns-toggle-icon">
+            Мастер быстрой настройки
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/book.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            База знаний Ainox
+          </a>
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/send-message.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Поддержка в Telegram
+          </a>
+          <a href="ticket-message.html" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/help.svg" alt="help" class="profile-dropdowns-toggle-icon">
+            Диалоги с поддержкой
+          </a>
+          <a href="new-ticket.html" class="menu-btn">
+            <button class="btn-black">
+              <img src="assets/icons/quation.svg" alt="quation" class="profile-dropdowns-toggle-icon">
+              Создать обращение
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="user-profile"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Ночной режим
+          </div>
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Выйти
+          </div>
+          <div class="profile-dropdowns-toggle-item btn-delete-account">
+            <img src="assets/icons/remove-account.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Удалить аккаунт
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+
+
+<main class="pt-15">
+  <div class="container container-steps">
+    <div class="alert success">
+      <p>
+        Ваш e-mail <b>admin@zhar-ptica.ru</b> подтвержден!
+      </p>
+      <i class="icon" data-name="close"></i>
+    </div>
+
+
+    <div class="step-page-row">
+      <div class="step-page-row-left">
+        <div class="steps-block " data-step="1">
+          <h1 class="standard-h1">Добро пожаловать в мастер настройки</h1>
+          <p class="standard-p mt-25 mb-25">
+            Вы в паре шагов от запуска продаж, осталось сделать несколько настроек. Процедура состоит из двух этапов:
+          </p>
+          <div class="step-page-list">
+            <img src="assets/icons/one.svg" alt="one" class="step-page-list-icon">
+            <div>
+              <p class="step-page-list-title">
+                Настройка Ainox
+              </p>
+              <p class="step-page-list-subtitle">
+                Первоначальная конфигурация сервиса
+              </p>
+            </div>
+          </div>
+          <div class="step-page-list">
+            <img src="assets/icons/two.svg" alt="one" class="step-page-list-icon">
+            <div>
+              <p class="step-page-list-title">
+                Подключение Robokassa
+              </p>
+              <p class="step-page-list-subtitle">
+                Подключение платежной системы для приема платежей
+              </p>
+            </div>
+          </div>
+          <p class="standard-p mt-25 mb-25">
+            После завершения настройки, система будет полностью функциональна. Вы сможете протестировать платежи с
+            собственной карты и запустить продажи.
+          </p>
+          <button class="btn-black mb-25 change-step" data-step="2">
+            Начать настройку
+            <img src="assets/icons/arrow-right.svg" alt="arrow">
+          </button>
+        </div>
+        <div class="steps-block steps-block2 d-none" data-step="2">
+          <div class="mb-25">
+            <button class="btn-transparent btn-transparent-new-ticket go-to-back-step change-step" data-step="1">
+              <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+              Настройка Ainox
+            </button>
+          </div>
+          <h1 class="standard-h1">Подтвердите данные владельца аккаунта</h1>
+          <p class="standard-p mt-25 mb-25">
+            В первую очередь нужно подтвердить ваш телефон, чтобы защитить ваш аккаунт и иметь возможность оперативно с вами связаться при необходимости.
+          </p>
+          <div class="note big">
+            <img src="assets/icons/look.svg" alt="look">
+            Ваши личные контакты только для внутреннего использования. Мы не передадим их 3-м лицам.
+          </div>
+          <div  class="wrapper mt-25 mb-25">
+            <p class="form-title mb-15">
+              Подтвердите свои контакты
+            </p>
+            <label class="def-fields">
+              <span class="def-fields-title">Ваш телефон</span>
+              <input type="tel" class="def-fields-phone">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+
+
+            <p class="standard-explanation step1-standard-explanation">Проверьте правильность телефона</p>
+            <div class="step-sms-info">
+              <img src="assets/icons/info.svg" alt="info">
+              <p class="step-sms-text">Подтверждая телефон вводом СМС-кода вы
+                <a href="#" class="link-blue">принимаете условия пользовательского соглашения</a>
+              </p>
+            </div>
+            <label class="def-fields sms-code-input d-none">
+              <span class="def-fields-title">Код из СМС</span>
+              <input type="text" class="def-fields-input mask-one-key" placeholder="000–000">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+            <p class="standard-explanation step1-standard-explanation2 d-none">
+              Мы отправили СМС с кодом на номер +7 (999) 123-45-67. <span class="">Код не пришел?</span>
+            </p>
+            <button class="btn-white mt-15 confirm-sms-code d-none change-step disabled" disabled data-step="3">
+              Подтвердить телефон
+              <img src="assets/icons/arrow-right-black.svg" class="ms-15" alt="arrow">
+            </button>
+            <button class="btn-white mt-15 disabled btn-time d-none %w-100" disabled>
+              Повторить отправку 3:59
+            </button>
+            <button class="btn-white mt-15 get-sms">
+              Получить СМС
+              <img src="assets/icons/arrow-right-black.svg" class="ms-15" alt="arrow">
+            </button>
+          </div>
+        </div>
+        <div class="steps-block steps-block3 d-none" data-step="3">
+          <div class="mb-25">
+            <button class="btn-transparent btn-transparent-new-ticket change-step" data-step="2">
+              <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+              Контакт администратора
+            </button>
+          </div>
+          <h1 class="standard-h1">Укажите публичные данные продавца</h1>
+          <p class="standard-p mt-25 mb-25">
+            На основе этих данных мы создадим вам сайт-витрину, подготовим шаблоны документов (оферту и политику обработки персональных данных).
+          </p>
+          <div class="note big">
+            <img src="assets/icons/russian-flag.svg" alt="flag">
+            Работаем только с юридическими лицами и ИП зарегистрированными в РФ
+          </div>
+          <div class="wrapper mt-25 mb-25">
+            <p class="form-title mb-25">
+              Заполните форму
+            </p>
+            <label class="def-fields def-fields-text">
+              <span class="def-fields-title">Название или ИНН</span>
+              <input type="email" class="def-fields-input filed-inn" placeholder="Иванов Иван Иванович">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="email-icon">
+            </label>
+            <div class="name-inn-body"></div>
+            <p class="standard-explanation step1-standard-explanation mb-15">
+              Укажите какие-либо данные, остальное мы найдем и заполним из справочника.
+            </p>
+            <p class="error-form mb-25 mt-6 d-none error-user-name-surname"></p>
+            <div class="add-info-inn d-none">
+              <label class="def-fields def-fields-text def-fields-name">
+                <span class="def-fields-title">Название</span>
+                <input type="email" class="def-fields-input filed-inn" placeholder="Иванов Иван Иванович">
+                <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="email-icon">
+              </label>
+              <label class="def-fields def-fields-inn mt-15">
+                <span class="def-fields-title">ИНН</span>
+                <input type="text" class="def-fields-input mask-jurlitsa" placeholder="0000000000">
+                <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+              </label>
+            </div>
+            <label class="def-fields def-fields-text mt-15 disabled">
+              <span class="def-fields-title ">Публичный E-mail</span>
+              <input type="email" class="def-fields-input mask-email" placeholder="_@_._" value="and.torgomyan@gmail.com" disabled>
+              <img class="def-fields-icon-edit" src="assets/icons/edit-input.svg" alt="key-icon">
+            </label>
+
+            <label class="def-fields mt-15">
+              <span class="def-fields-title">Ваш телефон</span>
+              <input type="tel" class="def-fields-phone">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+            <label class="def-fields mt-15">
+              <span class="def-fields-title">Ссылка на ваш сайт</span>
+              <input type="text" class="def-fields-input input-link" placeholder="Ссылка на ваш сайт">
+              <img class="def-fields-icon" src="assets/icons/link.svg" alt="filed-icon">
+            </label>
+            <p class="standard-explanation step1-standard-explanation">
+              Укажите ссылку на свой главный ресурс: сайт, соцсеть, что-то еще, если есть.
+            </p>
+          </div>
+          <div class="note warning">
+            <img src="assets/icons/warning.svg" alt="flag">
+            Убедитесь, что эта информация для публичного использования. Данные будут размещены в открытом доступе.
+          </div>
+          <button class="btn-green mt-25 mb-25 change-step" data-step="4">
+            Отправить
+            <img src="assets/icons/arrow-right.svg" alt="arrow">
+          </button>
+        </div>
+        <div class="steps-block steps-block4 d-none" data-step="4">
+          <div class="mb-25">
+            <button class="btn-transparent btn-transparent-new-ticket change-step" data-step="3">
+              <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+              Данные продавца
+            </button>
+          </div>
+          <h1 class="standard-h1">Расскажите о своем магазине</h1>
+          <p class="standard-p mt-25 mb-25">
+            Ваши клиенты увидят ее на сайте витрине. Так же на её основании модератор платежного сервиса будет принимать решение об активации магазина.
+          </p>
+          <div class="wrapper mt-25 mb-25">
+            <p class="form-title mb-25">
+              Заполните форму
+            </p>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title">Название магазина</span>
+              <input type="email" class="def-fields-input shop-name" placeholder="Рога и копыта">
+              <img class="def-fields-icon" src="assets/icons/magazin-icon.svg" alt="mag-icon">
+            </label>
+            <p class="standard-explanation step1-standard-explanation mb-15">
+              Название бренда по которому вас узнают клиенты
+            </p>
+
+            <label class="def-fields text">
+              <span class="def-fields-title">Описание магазина</span>
+              <input type="email" class="def-fields-input" placeholder="_@_._">
+              <span class="def-fields-text-body" contenteditable="true"></span>
+              <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+            </label>
+            <p class="standard-explanation step1-standard-explanation mb-15">
+              Расскажите в деталях о своей работе: что, кому, зачем, как и на каких условиях вы продаете
+            </p>
+
+            <label class="def-fields text address-site-shop">
+              <span class="def-fields-title">Адрес вашего сайта-витрины</span>
+              <input type="email" class="def-fields-input" placeholder="_@_._">
+              <span class="def-fields-text-body address-site-shop-name" contenteditable="true"></span>
+              <img class="def-fields-text-icon-edit" src="assets/icons/edit-input.svg" alt="key-icon">
+            </label>
+            <p class="error-form mt-6 mb-6 d-none" id="error-message-address-site">
+              Этот адрес уже занят, выберите другой
+            </p>
+            <p class="standard-explanation step1-standard-explanation mb-15">
+              Этот адрес вы сможете давать своим клиентам для оформления подписки
+            </p>
+          </div>
+          <button class="btn-green mt-25 mb-25 change-step" data-step="5">
+            Отправить
+            <img src="assets/icons/arrow-right.svg" alt="arrow">
+          </button>
+        </div>
+        <div class="steps-block steps-block6 d-none" data-step="5">
+          <div class="mb-25">
+            <button class="btn-transparent btn-transparent-new-ticket change-step" data-step="4">
+              <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+              Основной продукт
+            </button>
+          </div>
+          <h1 class="standard-h1">Осталось подключить платежный сервис</h1>
+          <p class="standard-p mt-25 mb-25">
+            Без платежного сервиса Ainox не сможет создавать подписки. Его подключение обязательно, ни к чему вас не обязывает и полностью бесплатно.
+            Наш платежный сервис — Robokassa.
+          </p>
+          <h3 class="mt-25 mb-25 step6-subtitle">
+            Вопросы и ответы
+          </h3>
+          <div class="faq">
+            <div class="faq-item">
+              <input class="faq-input" type="checkbox" checked name="faq" id="faq_1" >
+              <label for="faq_1" class="faq-title">Что такое Robokassa
+                <img src="assets/icons/acardion-bottom.svg" alt="acardion">
+              </label>
+              <div class="faq-text faq-text1">
+                <p>Робокасса — это платежный сервис, который принимает,
+                  хранит и выводит деньги клиентов на ваш счет. </p>
+                <button class="btn-link">
+                  <i class="icon" data-name="link"></i>Официальный сайт Robokassa
+                </button>
+              </div>
+            </div>
+            <div class="faq-item">
+              <input class="faq-input" type="checkbox" name="faq" id="faq_2" >
+              <label for="faq_2" class="faq-title">Сколько стоит Robokassa
+                <img src="assets/icons/acardion-bottom.svg" alt="acardion">
+              </label>
+              <div class="faq-text">
+                <p>Робокасса — это платежный сервис, который принимает,
+                  хранит и выводит деньги клиентов на ваш счет.</p>
+                <button class="btn-link">
+                  <i class="icon" data-name="link"></i>Официальный сайт Robokassa
+                </button>
+              </div>
+            </div>
+          </div>
+          <h3 class="mt-25 mb-25 step6-subtitle">
+            Подключение и модерация
+          </h3>
+          <p class="standard-p mt-25">
+            Мы автоматически все создаем, подключаем и настраиваем. От вас требуется только заполнить анкету.
+            Ручная модерация Робокассой обязательна для каждого магазина по закону РФ. Наши специалисты следят и помогают провести ее быстро.
+          </p>
+          <div class="note big mt-25">
+            <img src="assets/icons/info.svg" alt="info">
+            Отредактировать этот продукт и добавить другие вы сможете сразу после прохождения модерации Robokassa
+          </div>
+          <button class="btn-black mt-25 mb-25 change-step" data-step="6">
+            Подключить Robokassa
+            <img src="assets/icons/arrow-right.svg" alt="arrow">
+          </button>
+        </div>
+        <div class="steps-block steps-block5 d-none" data-step="6">
+          <div class="mb-25">
+            <button class="btn-transparent btn-transparent-new-ticket change-step" data-step="5">
+              <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+              Информация о магазине
+            </button>
+          </div>
+          <h1 class="standard-h1">Добавьте основной продукт</h1>
+          <p class="standard-p mt-25 mb-25">
+            Вне зависимости от вашего ассортимента и предложений, выберите 1 основной продукт и добавьте его. Это важно для
+             последующей модерации — продукт должен быть настоящим.
+          </p>
+          <div class="note big">
+            <img src="assets/icons/info.svg" alt="info">
+            Отредактировать этот продукт и добавить другие вы сможете сразу после прохождения модерации Robokassa
+          </div>
+          <div class="wrapper mt-25 mb-25">
+            <p class="form-title mb-25">
+              Заполните форму
+            </p>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title">Название продукта</span>
+              <input type="email" class="def-fields-input field-name-surname" placeholder="Название продукта">
+              <img class="def-fields-icon" src="assets/icons/magazin-icon.svg" alt="mag-icon">
+            </label>
+            <p class="standard-explanation step1-standard-explanation mb-15">
+              Полное название продукта по которому его могут идентифицировать клиенты
+            </p>
+            <label class="def-fields text">
+              <span class="def-fields-title">Описание магазина</span>
+              <input type="email" class="def-fields-input" placeholder="_@_._">
+              <span class="def-fields-text-body" contenteditable="true"></span>
+              <img class="def-fields-icon" src="assets/icons/magazin-icon.svg" alt="mag-icon">
+            </label>
+            <p class="standard-explanation step1-standard-explanation mb-15">
+              Расскажите подробно о продукте: описание, свойства, объем, комплектация, условия получения и другие детали
+            </p>
+            <label class="def-fields">
+              <span class="def-fields-title">Стоимость продукта </span>
+              <input type="text" class="def-fields-input price-products" placeholder="0000000000">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+            <p class="standard-explanation step1-standard-explanation mb-15">
+              Укажите стоимость за продукт в российских рублях, ₽
+            </p>
+          </div>
+          <button class="btn-green mt-25 mb-25 change-step" data-step="7">
+            Отправить
+            <img src="assets/icons/arrow-right.svg" alt="arrow">
+          </button>
+        </div>
+        <div class="steps-block steps-block7 d-none" data-step="7">
+          <div class="mb-25">
+            <button class="btn-transparent btn-transparent-new-ticket change-step" data-step="6">
+              <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+              Подключение Robokassa
+            </button>
+          </div>
+          <h1 class="standard-h1">Укажите банковские реквизиты</h1>
+          <p class="standard-p mt-25 mb-25">
+            Деньги которые вы получите от клиентов будут выводиться на этот счет.
+          </p>
+          <div class="note big">
+            <img src="assets/icons/info.svg" alt="info">
+            Реквизиты должны принадлежать ООО “Рога и копыта” / ИНН 1234567890
+          </div>
+          <div class="wrapper mt-25 mb-25">
+            <p class="form-title mb-25">
+              Заполните форму
+            </p>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title">БИК банка</span>
+              <input type="email" class="def-fields-input field-name-surname" placeholder="БИК банка">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="check-icon">
+            </label>
+            <label class="def-fields mt-15">
+              <span class="def-fields-title">Расчетный счет</span>
+              <input type="text" class="def-fields-input mask-checking-account" placeholder="00000000000000000000">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+          </div>
+          <button class="btn-green mt-25 mb-25 change-step" data-step="8">
+            Отправить
+            <img src="assets/icons/arrow-right.svg" alt="arrow">
+          </button>
+        </div>
+        <div class="steps-block steps-block8 d-none" data-step="8">
+          <div class="mb-25">
+            <button class="btn-transparent btn-transparent-new-ticket change-step" data-step="7">
+              <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+              Банковские реквизиты
+            </button>
+          </div>
+          <h1 class="standard-h1">Ключевые контакты для управления</h1>
+          <p class="standard-p mt-25 mb-25">
+            С этими данными будет создан аккаунт в Robokassa и только для этих людей будет доступ в сервис.
+          </p>
+          <div class="wrapper mt-25 mb-25">
+            <p class="form-title mb-25">
+              Расскажите о себе
+            </p>
+            <div class="def-select">
+              <select data-title="Ваша роль в проекте" class="inn-for-tech-select">
+                <option value="Технический специалист">Технический специалист</option>
+                <option value="Руководитель / Владелец">Руководитель / Владелец</option>
+              </select>
+              <div class="def-select-content"></div>
+            </div>
+            <label class="def-fields inn-for-tech mt-15 d-none">
+              <span class="def-fields-title">ИНН</span>
+              <input type="text" class="def-fields-input mask-physical" placeholder="0000000000">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title">Ваши фамилия имя отчество</span>
+              <input type="email" class="def-fields-input field-name-surname" placeholder="Иванов Иван Иванович">
+              <img class="def-fields-icon" src="assets/icons/magazin-icon.svg" alt="mag-icon">
+
+              <span class="def-fields-clue">
+              </span>
+            </label>
+            <p class="error-form mb-25 d-none error-user-name-surname"></p>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title ">Ваш E-mail</span>
+              <input type="email" class="def-fields-input mask-email" placeholder="_@_._">
+              <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+            </label>
+            <label class="filed-phone mt-15">
+                <span class="filed-phone-countries">
+                  <img src="https://www.countryflagicons.com/FLAT/64/RU.png" alt="flag" width="30" class="filed-phone-countries-flag">
+                  <img src="assets/icons/down.svg" alt="down" class="filed-phone-countries-downIcon">
+                  <span class="filed-phone-numbers"></span>
+                </span>
+              <input class="filed-phone-country-code" value="+7" size="2" maxlength="5" />
+              <input type="text" class="filed-phone-input">
+              <span class="filed-phone-placeholder">Ваш телефон</span>
+            </label>
+            <div class="step8-footer mt-15">
+               <div class="inner">
+                 <h4>
+                   Сделать меня владельцем аккаунта в Robokassa
+                 </h4>
+                 <label class="def-switch">
+                   <input type="checkbox">
+                   <span></span>
+                 </label>
+               </div>
+              <p class="standard-explanation step1-standard-explanation">
+                Владелец аккаунта в Robokassa имеет максимальный доступ в систему. На его почту придут все реквизиты для доступа.
+              </p>
+            </div>
+          </div>
+
+          <div class="wrapper mt-25 mb-25">
+            <p class="form-title mb-25">
+              Расскажите о руководителя
+            </p>
+<!--            <div class="def-select">-->
+<!--              <select data-title="Ваша роль в проекте" class="inn-for-tech-select">-->
+<!--                <option value="Технический специалист">Технический специалист</option>-->
+<!--                <option value="Руководитель / Владелец" selected>Руководитель / Владелец</option>-->
+<!--              </select>-->
+<!--              <div class="def-select-content"></div>-->
+<!--            </div>-->
+            <label class="def-fields inn-for-tech mt-15 d-none">
+              <span class="def-fields-title">ИНН</span>
+              <input type="text" class="def-fields-input mask-physical" placeholder="0000000000">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title">Ваши фамилия имя отчество</span>
+              <input type="email" class="def-fields-input field-name-surname" placeholder="Иванов Иван Иванович">
+              <img class="def-fields-icon" src="assets/icons/magazin-icon.svg" alt="mag-icon">
+
+              <span class="def-fields-clue">
+              </span>
+            </label>
+            <p class="error-form mb-25 d-none error-user-name-surname"></p>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title ">Ваш E-mail</span>
+              <input type="email" class="def-fields-input mask-email" placeholder="_@_._">
+              <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+            </label>
+            <label class="filed-phone mt-15">
+                <span class="filed-phone-countries">
+                  <img src="https://www.countryflagicons.com/FLAT/64/RU.png" alt="flag" width="30" class="filed-phone-countries-flag">
+                  <img src="assets/icons/down.svg" alt="down" class="filed-phone-countries-downIcon">
+                  <span class="filed-phone-numbers"></span>
+                </span>
+              <input class="filed-phone-country-code" value="+7" size="2" maxlength="5" />
+              <input type="text" class="filed-phone-input">
+              <span class="filed-phone-placeholder">Ваш телефон</span>
+            </label>
+            <div class="step8-footer mt-15">
+              <div class="inner">
+                <h4>
+                  Сделать меня владельцем аккаунта в Robokassa
+                </h4>
+                <label class="def-switch">
+                  <input type="checkbox">
+                  <span></span>
+                </label>
+              </div>
+              <p class="standard-explanation step1-standard-explanation">
+                Владелец аккаунта в Robokassa имеет максимальный доступ в систему. На его почту придут все реквизиты для доступа.
+              </p>
+            </div>
+          </div>
+          <button class="btn-green mt-25 mb-25 change-step" data-step="9">
+            Отправить
+            <img src="assets/icons/arrow-right.svg" alt="arrow">
+          </button>
+        </div>
+        <div class="steps-block steps-block9 d-none" data-step="9">
+          <div class="mb-25">
+            <button class="btn-transparent btn-transparent-new-ticket change-step" data-step="8">
+              <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+              Ключевые контакты
+            </button>
+          </div>
+          <h1 class="standard-h1">Данные руководителя для договора</h1>
+          <p class="standard-p mt-25 mb-25">
+            Информация о руководители необходима для заключения договора с Robokassa.
+          </p>
+          <div class="note big">
+            <img src="assets/icons/look.svg" alt="look">
+            Ваши данные в безопасности. Эта информация используются только для заполнения анкеты в Robokassa.
+          </div>
+          <div class="wrapper mt-25 mb-25">
+            <p class="form-title mb-25">
+              Данные руководителя
+            </p>
+            <div class="def-select">
+              <select data-title="Должность руководителя">
+                <option value="text" data-subtitle="text-subtitle1">Генеральный директор</option>
+                <option value="text1" data-subtitle="text-subtitle1">Генеральный директор</option>
+                <option value="text2" data-subtitle="text-subtitle2">Генеральный директор</option>
+                <option value="text3" data-subtitle="text-subtitle3">Генеральный директор</option>
+              </select>
+              <div class="def-select-content"></div>
+            </div>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title">Фамилия имя отчество руководителя</span>
+              <input type="email" class="def-fields-input field-name-surname" placeholder="Иванов Иван Иванович">
+              <img class="def-fields-icon" src="assets/icons/edit-input.svg" alt="edit-icon">
+            </label>
+            <p class="error-form mb-25 d-none error-user-name-surname"></p>
+            <label class="def-fields mt-15">
+              <span class="def-fields-title">ИНН руководителя</span>
+              <input type="text" class="def-fields-input mask-jurlitsa" placeholder="0000000000">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+          </div>
+          <div class="wrapper mt-25 mb-25">
+            <p class="form-title mb-25">
+              Паспортные данные руководителя
+            </p>
+            <label class="def-fields">
+              <span class="def-fields-title">Серия паспорта</span>
+              <input type="text" class="def-fields-input mask-serial-passport" placeholder="00 00">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+            <label class="def-fields mt-15">
+              <span class="def-fields-title">Номер паспорта</span>
+              <input type="text" class="def-fields-input" placeholder="000000">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+            <label class="def-fields mt-15">
+              <span class="def-fields-title">Дата выдачи паспорта</span>
+              <input type="date" class="def-fields-input date">
+            </label>
+            <label class="def-fields mt-15">
+              <span class="def-fields-title">Кем выдан паспорт</span>
+              <input type="text" class="def-fields-input" placeholder="000000">
+              <img class="def-fields-icon" src="assets/icons/magazin-icon.svg" alt="magazin-icon">
+            </label>
+            <label class="def-fields mt-15">
+              <span class="def-fields-title">Код подразделения</span>
+              <input type="text" class="def-fields-input" placeholder="000000">
+              <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+            </label>
+            <label class="def-fields mt-15">
+              <span class="def-fields-title">Регистрирующий орган</span>
+              <input type="text" class="def-fields-input" placeholder="000000">
+              <img class="def-fields-icon" src="assets/icons/magazin-icon.svg" alt="magazin-icon">
+            </label>
+          </div>
+          <div class="wrapper mt-25 mb-25">
+            <p class="form-title mb-25">
+              Дата рождения руководителя
+            </p>
+            <label class="def-fields">
+              <span class="def-fields-title">Дата рождения </span>
+              <input type="date" class="def-fields-input date">
+            </label>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title">Место рождения</span>
+              <input type="email" class="def-fields-input field-name-surname" placeholder="Место рождения">
+              <img class="def-fields-icon" src="assets/icons/magazin-icon.svg" alt="mag-icon">
+            </label>
+          </div>
+          <div class="wrapper mt-25 mb-25">
+            <p class="form-title mb-25">
+              Регистрация руководителя
+            </p>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title">Адрес регистрации</span>
+              <input type="email" class="def-fields-input field-name-surname" placeholder="Адрес регистрации">
+              <img class="def-fields-icon" src="assets/icons/magazin-icon.svg" alt="mag-icon">
+            </label>
+            <label class="def-fields def-fields-text mt-15">
+              <span class="def-fields-title">Кем зарегистрирован</span>
+              <input type="email" class="def-fields-input field-name-surname" placeholder="Кем зарегистрирован">
+              <img class="def-fields-icon" src="assets/icons/magazin-icon.svg" alt="mag-icon">
+            </label>
+          </div>
+          <button class="btn-green mt-25 mb-25 change-step" data-step="10">
+            Отправить
+            <img src="assets/icons/arrow-right.svg" alt="arrow">
+          </button>
+        </div>
+        <div class="steps-block steps-block10 d-none" data-step="10">
+          <div class="mb-25">
+            <button class="btn-transparent btn-transparent-new-ticket change-step" data-step="9">
+              <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+              Данные руководителя
+            </button>
+          </div>
+          <h1 class="standard-h1">Сканы документов для проверки</h1>
+          <p class="standard-p mt-25 mb-25">
+            Прикрепите качественные сканы или фотографии документов для проверки модератором Robokassa.
+          </p>
+          <div class="note big">
+            <img src="assets/icons/look.svg" alt="look">
+            Ваши документы в безопасности. Мы используем их только для заполнения анкеты и передадим для модерации в Robokassa. Затем сразу удалим у себя.
+          </div>
+          <div class="wrapper mt-25">
+            <p class="form-title mb-25">
+              Заполните форму
+            </p>
+            <p class="user-information-title">
+              Паспорт руководителя
+            </p>
+            <p class="standard-explanation step1-standard-explanation">
+              Первые 4 страницы паспорта и страницу с отметками о ранее выданных паспортах, если такая есть
+            </p>
+            <div class="files-drag-drop-center">
+              <div class="files-drag-drop-center-title">Прикрепите файлы с устройства</div>
+              <div id="uploading-file-step"></div>
+              <p class="icon-accent">
+                <img src="assets/icons/error-rounded.svg" alt="rounded">
+                Прикрепляемый файл превышает допустимый размер.
+              </p>
+              <label class="d-inline-block cursor-pointer btn-white-steps ">
+                <input type="file" class="d-none" id="upload-file-step-input" multiple="multiple" accept="image/png, image/jpeg, image/jpg, application/pdf">
+                <span class="btn-gray mt-15">
+                  <img src="assets/icons/Edit-Attachment.svg" alt="arrow">
+                  Прикрепить
+                </span>
+              </label>
+            </div>
+            <p class="standard-explanation mt-6">
+              В формате jpg, jpeg, png, pdf. До 1 мб. Без бликов, размытий, с четко видимыми всеми элементами.
+            </p>
+            <h4 class="step10-subtitle-info mt-15">
+              Свидетельство о постановке на учет в налоговом органе, ИНН
+            </h4>
+            <div class="files-drag-drop-center">
+              <div class="files-drag-drop-center-title">Прикрепите файлы с устройства</div>
+              <div id="uploading-file-step2"></div>
+              <button class="btn-white loading-file-btn disabled" disabled>
+                <img src="assets/icons/loading.svg" alt="arrow">
+                Загружаем
+              </button>
+            </div>
+            <p class="standard-explanation mt-6">
+              В формате jpg, jpeg, png, pdf. До 1 мб. Без бликов, размытий, с четко видимыми всеми элементами.
+            </p>
+          </div>
+          <a href="robo.html">
+            <button class="btn-green mt-25 mb-25 change-step">
+              Отправить на модерацию
+              <img src="assets/icons/arrow-right.svg" alt="arrow">
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="step-page-row-right">
+        <p class="menu-list-with-content form-title mt-lg-15 mb-10 mb-lg-15">
+          Настройка магазина Ainox
+        </p>
+<!--        <div class="menu-list-with-content no-active" >-->
+<!--          <span>1</span>-->
+<!--          Контакт администратора-->
+<!--        </div>-->
+        <div class="menu-list-with-content menu-list-with-content-item no-active">
+          <span>1</span>
+          Контакт администратора
+        </div>
+        <div class="menu-list-with-content menu-list-with-content-item no-active">
+          <span>2</span>
+          Данные продавца
+        </div>
+        <div class="menu-list-with-content menu-list-with-content-item no-active">
+          <span>3</span>
+          Информация о магазине
+        </div>
+        <p class="menu-list-with-content form-title mt-15 mb-10 mb-lg-15">
+          Подключение платежной системы Robokassa
+        </p>
+        <div class="menu-list-with-content menu-list-with-content-item no-active">
+          <span>4</span>
+          Подключение Robokassa
+        </div>
+        <div class="menu-list-with-content menu-list-with-content-item no-active">
+          <span>5</span>
+          Банковские реквизиты
+        </div>
+        <div class="menu-list-with-content menu-list-with-content-item no-active">
+          <span>6</span>
+          Ключевые контакты
+        </div>
+        <div class="menu-list-with-content menu-list-with-content-item no-active">
+          <span>7</span>
+          Данные руководителя
+        </div>
+        <div class="menu-list-with-content menu-list-with-content-item no-active">
+          <span>8</span>
+          Документы для проверки
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+
+
+<div class="upload-box">
+  <img src="assets/images/upload.png" alt="uplaod">
+</div>
+
+<div class="view-image">
+  <div class="view-image-content">
+    <img src="assets/images/passport-image-max.png" alt="view image" class="view-image-content-image">
+    <div class="view-image-content-image-information">
+      <div class="view-image-content-image-information-text">
+        <img src="assets/icons/trash-white.svg" alt="trash-white" class="view-image-content-image-information-remove">
+        Стандартный текст
+      </div>
+      <i class="icon" data-name="close"></i>
+    </div>
+  </div>
+  <div class="view-image-bg"></div>
+</div>
+
+<div class="modal-delete-account">
+  <div class="modal-delete-account-body"></div>
+  <div class="modal-form">
+    <h2 class="modal-form-heading">Подтвердите удаление аккаунта</h2>
+    <p class="modal-form-title">Все данные об аккаунте будут незамедлительно удалены. Восстановление не возможно.</p>
+    <div class="wrapper wrapper-modal-form">
+      <span>Подтвердите удаление</span>
+      <div class="switch-modal">
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+        <p>Подтверждаю удаление аккаунта без возможности восстановления.</p>
+      </div>
+      <div class="switch-modal switch-modal-mobile">
+        <p>Подтверждаю удаление аккаунта без возможности восстановления.</p>
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+      </div>
+    </div>
+    <div class="modal-buttons">
+      <button class="close-modal">
+        <img src="assets/icons/X.svg" alt="X">
+        Отмена
+      </button>
+      <button class="btn-delete">
+        Удалить аккаунт
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="js/mask-data.js"></script>
+<script src="js/fastfront.js"></script>
+<script src="js/main.js"></script>
+<script src="js/step.js"></script>
+</body>
+</html>

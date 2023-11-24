@@ -1,0 +1,1096 @@
+
+@media (max-height: 400px) {
+
+  .email .email-box{
+    margin-top: 80px !important;
+  }
+
+  .email-box .register-now {
+    position: relative;
+    margin-top: 35px;
+  }
+}
+
+
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 992px){
+    .navbar-items{
+        display: none;
+    }
+    .profile-dropdowns.active .profile-dropdowns-toggle{
+        width: 100%;
+        position: fixed;
+        top: 55px;
+        left: 0;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+
+  .ticket-message .navbar.actives .profile-dropdowns.active .profile-dropdowns-toggle{
+    top: 80px;
+  }
+  .got-a-message-trial{
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .menu-back-fon.active{
+    background: rgba(34, 37, 41, 0.90);
+    backdrop-filter: blur(6px);
+  }
+  .menu-active .navbar{
+    background-color: #fff !important;
+  }
+}
+
+
+
+@media (max-width: 768px){
+  .filed-phone-numbers{
+    width: 250px;
+  }
+
+  .standard-explanation {
+    font-size: 10px;
+  }
+
+  .steps-block2 .btn-white{
+    width: 100%;
+  }
+
+  .filed-phone-new-tickets{
+    display: none;
+  }
+  .filed-phone-mobile{
+    display: flex;
+  }
+
+  .got-a-message{
+    height: 30px;
+  }
+
+  .modal-delete-new-ticket{
+    display: none;
+  }
+
+  .write-number-ans-select-country-code.new-tickets{
+    display: none;
+  }
+
+  .menu-list-with-content{
+    padding: 10px 0;
+  }
+
+  .container{
+    padding: 0 10px;
+  }
+  .step-page-row-right{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0;
+    background-color: #fff;
+    height: calc(100vh - 124px);
+    overflow-y: auto;
+    border: 0;
+    transition: 0.3s;
+    transform: translateX(-100%);
+    opacity: 0;
+    z-index: 100000;
+    padding: 10px;
+  }
+  .step-page-row-right.active{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .step-page-row-right::-webkit-scrollbar {
+    width: 10px;
+    height: 2px;
+    padding: 10px;
+  }
+  .step-page-row-right::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    padding: 10px;
+    border: 4px solid rgba(0, 0, 0, 0);
+  }
+  .step-page-row-right::-webkit-scrollbar-track {
+    margin-block: 15px;
+  }
+  .step-page-row-left{
+    width: 100%;
+  }
+  .view-image-content{
+    padding: 0 10px;
+  }
+
+  .modal-delete-account{
+    align-items: end;
+  }
+  .modal-delete-account .modal-form{
+    border-radius: 30px 30px 0 0 ;
+  }
+
+  .profile-dropdowns-toggle .btn-black{
+    width: 100%;
+  }
+  .menu-active .navbar{
+    background-color: #fff !important;
+  }
+  .menu-list-with-content:hover{
+    background-color: transparent;
+  }
+  .step-page-row-right{
+    height: calc(100% - 120px);
+  }
+  .menu-list-with-content:hover span{
+    background-color: transparent;
+  }
+  .btn-transparent-new-ticket{
+    font-size: 10px !important;
+  }
+
+  .step-page .btn-green, .step-page .btn-black{
+    width: 100%;
+  }
+
+  .btn-status{
+    padding: 5px 10px;
+    gap: 5px;
+  }
+
+
+  .alert svg {
+    margin-left: 10px;
+    cursor: pointer;
+    width: 30px !important;
+    height: 18px !important;
+  }
+
+  .ticket-message .navbar.actives{
+    margin-top: 27px;
+  }
+
+  .upload-box img{
+    width: 100%;
+  }
+
+
+  .btn-black{
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .btn-white{
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .btn-transparent{
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .btn-gray{
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .btn-green{
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .email{
+    padding: 0 10px;
+  }
+
+  .email .email-box {
+    margin-top: -30px;
+  }
+
+  .email-box .register-now {
+    bottom: 15px;
+  }
+
+
+  .email-box .social-sites .btn-social{
+    font-size: 0;
+    width: calc((100% / 3) - 10px);
+  }
+
+  .emaile .emaile-box .email-box-subtitle{
+    font-size: 13px;
+  }
+
+  .email .email-box .email-box-title{
+    font-size: 12px;
+  }
+
+  .email-box .social-sites .btn-social img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 8px;
+  }
+
+  .email-box .register-now{
+    font-size: 16px;
+  }
+
+  .email .email-box .email-change-kod{
+    font-size: 10px;
+  }
+
+
+  .email .email-box .email-change-kod a{
+    font-size: 10px;
+  }
+
+
+  /* robo */
+
+  .container-robo{
+    margin-top: 75px;
+  }
+
+  .container-robo .alert-robo p{
+    font-size: 12px;
+  }
+
+  .container-robo .robo .image{
+    text-align: center;
+  }
+
+  .container-robo .robo .robo-heading{
+    font-size: 24px;
+  }
+
+  .container-robo .robo .robo-title{
+    font-size: 13px;
+  }
+
+  .container-robo .robo .robo-box span {
+    font-size: 10px;
+  }
+
+  .container-robo .robo .btn-robo{
+    width: 100%;
+  }
+
+
+  /*  finish */
+
+  .container-finish{
+    margin-top: 75px;
+  }
+
+
+  .container-finish .finish .image{
+    text-align: center;
+  }
+
+  .container-finish .finish .finish-heading{
+    font-size: 24px;
+  }
+
+  .container-finish .finish .finish-title{
+    font-size: 13px;
+  }
+
+  .container-finish .finish .finish-subtitle{
+    font-size: 10px;
+  }
+
+  .container-finish .finish .finish-text span{
+    font-size: 14px;
+  }
+
+  .container-finish .finish .btn-finish{
+    width: 100%;
+  }
+
+
+  /*  ...........trial .......*/
+
+  .trial-container{
+    margin-top: 75px;
+  }
+
+  .trial-container.active{
+    margin-top: 110px;
+  }
+
+
+  .trial .trial-heading{
+    font-size: 24px;
+  }
+
+  .trial .trial-title {
+    font-size: 13px;
+  }
+
+  .trial .trial-heading2{
+    font-size: 18px;
+  }
+
+  .trial .one-box .one-box-titles h4{
+    font-size: 13px;
+  }
+
+  .trial .one-box .one-box-titles p{
+    font-size: 12px;
+  }
+
+  .faq .faq-title{
+    font-size: 14px;
+  }
+
+  .faq .faq-text p{
+    font-size: 12px;
+  }
+
+  .faq .faq-text .btn-link{
+    font-size: 14px;
+  }
+
+  .trial .btn-trial{
+    width: 100%;
+  }
+
+
+
+  /* .......... end trial............*/
+
+
+  /* new-ticket */
+
+  .container-new-ticket .technical-support .footer-btn-new-ticket{
+    width: 94%;
+  }
+
+  .container-new-ticket .technical-support {
+    margin-top: 75px;
+  }
+
+  .container-new-ticket .technical-support .heading-tew-ticket{
+    color: #222529;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  .container-new-ticket .technical-support .title-new-ticket {
+    color: #222529;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%;
+  }
+
+  .container-new-ticket .technical-support .watch-box span{
+    font-size: 10px;
+  }
+
+
+  .container-new-ticket .technical-support .footer-btn-new-ticket .fields-new-ticket .submit-new-ticket{
+    font-size: 14px;
+  }
+
+  .standard-h1{
+    font-size: 24px;
+  }
+  .standard-p{
+    font-size: 13px;
+  }
+  .step-page-list-title{
+    font-size: 13px;
+  }
+  .step-page-list-subtitle{
+    font-size: 12px;
+  }
+  .menu-list-with-content{
+    font-size: 13px;
+  }
+
+  .btn-white-steps{
+    width: 100% !important;
+  }
+
+
+  /*  request */
+  .new-request .form {
+    margin: 0 auto;
+    height: 100%;
+    min-height: 100vh;
+  }
+
+
+  .new-request .form .form-inputs {
+    padding: 15px 0;
+    height: calc(100% - 113px);
+  }
+
+
+ .ticket .new-request .form .form-inputs-ticket {
+    padding: 15px 0;
+    height: calc(100% - 98px);
+  }
+
+
+
+  .new-request .form .form-inputs .new-tickets-fields{
+    height: 63px;
+    font-size: 14px;
+    background: none;
+    padding: 5px;
+    margin-left: -5px;
+    display: none;
+  }
+
+  .new-request .form .form-inputs .new-tickets-fields-mobile{
+    display: flex;
+  }
+
+  .new-request .form .form-inputs .new-tickets-fields .def-fields-icon{
+    opacity: 1;
+  }
+
+  .new-request .form .form-inputs .new-tickets-fields.active{
+    border: none;
+  }
+
+  .new-request .form .form-inputs .new-tickets-fields span{
+    font-size: 14px;
+  }
+
+  .new-request .form .form-inputs .subject-fields{
+    height: 63px;
+    font-size: 14px;
+    background: none;
+    padding: 5px;
+    margin-left: -5px;
+    display: none;
+  }
+
+
+
+  .subject-fields-mobile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .new-request .form .form-inputs .subject-fields.active{
+    border: none;
+  }
+
+  .new-request .form .form-input-box .inputs .new-tickets-fields {
+    margin-right: 0;
+    margin-left: -5px;
+    padding: 5px !important;
+  }
+
+  .new-request .form .footer-buttons {
+    padding: 25px 10px;
+  }
+
+  .new-request .form .form-heading{
+    padding: 10px;
+  }
+
+  .new-request .form .form-input-box{
+    padding: 0 10px 0 7px;
+  }
+
+  .new-request .form .form-input-box .subject {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 100%;
+  }
+
+  .new-request .form .form-inputs .subject-fields span{
+    font-size: 14px;
+  }
+  .new-request .form .form-input-box .subject .subject-fields {
+    margin-bottom: 10px;
+  }
+
+  .new-request .form .form-input-box .subject #Description{
+    border: none;
+    font-size: 14px;
+    padding: 5px;
+    height: calc(100% - 200px);
+  }
+
+
+  .new-request .form .form-input-box .subject #Description::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+
+  .new-request .form .form-input-box .subject #Description::-moz-placeholder {
+   font-size: 14px;
+  }
+
+  .new-request .form .form-input-box .subject #Description:-ms-input-placeholder {
+    font-size: 14px;
+  }
+
+  .new-request .form .form-input-box .subject #Description::-ms-input-placeholder {
+    font-size: 14px;
+  }
+
+  .new-request .form .form-input-box .subject #Description::placeholder {
+    font-size: 14px;
+  }
+
+
+  .new-request .form .todos .todo-item {
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+  }
+
+  .new-request .form .form-heading span {
+    font-size: 13px;
+  }
+
+  .new-request .form .form-heading .icons .X {
+    margin-right: 15px;
+  }
+
+  .new-request .form .form-input-box {
+    margin-top: 10px;
+    height: calc(100% - 110px);
+  }
+
+  .textarea-fields{
+    display: block;
+    height: 100%;
+  }
+
+  .new-request .form .footer-buttons {
+    margin-top: 15px;
+  }
+
+
+  .new-request .form .footer-buttons .footer-img-file{
+    display: none;
+  }
+
+  .new-request .form .footer-buttons .footer-img-file.active{
+    display: initial;
+  }
+
+  .new-request .form .footer-buttons .footer-img-loading{
+    display: none;
+  }
+
+  .new-request .form .footer-buttons .footer-img-loading.active{
+    display: initial;
+  }
+
+  .def-fields-input::placeholder {
+    color: #DFE2E6;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+
+  .btn-status{
+    font-size: 13px;
+  }
+
+  /*  ticket   */
+
+  .ticket-container{
+    margin-top: 75px;
+  }
+
+  .ticket-container .request-box p{
+    font-size: 12px;
+  }
+
+
+
+  .ticket-container .chat .footer-btn-ticket{
+    width: calc(100% - 20px);
+  }
+
+
+  .ticket-container .chat  .footer-btn-ticket .fields-ticket .submit-ticket{
+    font-size: 14px;
+  }
+
+  .ticket-container .chat .btn-transparent-ticket{
+    font-size: 10px;
+  }
+
+  .ticket-container .chat .heading-ticket{
+    font-size: 24px;
+  }
+
+  .ticket-container .chat .submissions a{
+    font-size: 13px;
+  }
+
+  .ticket-container .chat .watch-box span{
+    font-size: 10px;
+  }
+
+  .ticket-container .chat .wrapper-ticket {
+    padding: 25px 20px;
+  }
+
+  .message{
+    margin-bottom: 30px;
+  }
+
+  .message .message-ticket p{
+    font-size: 13px;
+  }
+
+  .message .user .user-about .user-name{
+    font-size: 10px;
+  }
+
+  .message .user .user-about .data-message{
+    font-size: 10px;
+  }
+  .message .user{
+    margin-top: 5px;
+  }
+
+
+  .my-message .my-user{
+    margin-top: 5px;
+  }
+
+  .my-message .my-message-ticket p{
+    font-size: 13px;
+  }
+
+
+  .my-message .my-user .my-user-about .my-user-name{
+    font-size: 10px;
+  }
+
+  .my-message .my-user .my-user-about .my-data-message{
+    font-size: 10px;
+  }
+
+
+  .contacts h2{
+    font-size: 10px;
+  }
+
+
+  .contacts a{
+    font-size: 13px;
+  }
+
+  .contacts .contacts-email img{
+    position: relative;
+    top: 1.9px;
+  }
+
+  .contacts p{
+    font-size: 10px;
+    margin-top: 30px;
+  }
+
+
+  /*  Ticket-message  */
+
+  .ticket-message-description{
+    margin-top: 75px;
+  }
+
+  .ticket-message-description .btn-transparent-ticket{
+    font-size: 10px;
+  }
+
+  .got-a-message .got-a-message-container p{
+    font-size: 12px;
+  }
+
+
+  .ticket-message-description .heading-ticket-message{
+    font-size: 24px;
+  }
+
+  .ticket-message-description .title-ticket-message{
+    font-size: 13px;
+  }
+
+  .ticket-message-description .btn-black{
+    width: 100%;
+  }
+
+  .ticket-message-description .watch-box span{
+    font-size: 10px;
+  }
+
+  /*       .history-of-dialogues  */
+
+  .history-of-dialogues{
+    margin-top: 75px;
+  }
+
+  .history-of-dialogues .history-of-dialogues-heading{
+    font-size: 18px;
+  }
+
+
+  .history-of-dialogues .buttons button{
+    font-size: 0;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+  }
+
+  .history-of-dialogues .buttons button.active{
+    font-size: 13px;
+  }
+
+  .history-of-dialogues .buttons button svg{
+    margin-left: 5px;
+  }
+
+  .history-of-dialogues .wrapper .buttons-wrapper span{
+    font-size: 13px;
+  }
+
+  .history-of-dialogues .wrapper .wrapper-title{
+    margin: 5px 0;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .history-of-dialogues .wrapper .wrapper-subtitle{
+    font-size: 10px;
+  }
+
+  .history-of-dialogues .wrapper .wrapper-title-min{
+    margin: 5px 0;
+    font-size: 13px;
+  }
+
+  .history-of-dialogues .wrapper .wrapper-subtitle-min{
+    font-size: 10px;
+  }
+
+  .history-of-dialogues .footer-title{
+    font-size: 10px;
+  }
+
+  .history-of-dialogues .btn-gray{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+
+  .ticket-container .chat{
+    max-width: 100%;
+  }
+
+  .todos-switch{
+    padding: 0 10px;
+  }
+
+  .todos-switch-ticket{
+    margin-top: 30px;
+  }
+
+  .history-of-dialogues .buttons{
+    justify-content: space-between;
+  }
+
+  .history-of-dialogues .buttons button{
+    white-space: nowrap;
+    margin-right: 0;
+  }
+
+
+  .form-title{
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 576px){
+
+  .my-message .file-download{
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+}
+
+@media (max-width: 480px){
+
+  /*.modal-delete-account{*/
+  /*  align-items: normal;*/
+  /*}*/
+
+  .modal-delete-account .modal-form{
+    padding: 25px 20px;
+    /*position: relative;*/
+    /*top: 250px;*/
+    /*margin-top: 50px;*/
+  }
+
+  .modal-delete-account .modal-form .modal-form-heading{
+    font-size: 24px;
+  }
+
+  .modal-delete-account .modal-form .modal-form-title{
+    font-size: 13px;
+    margin: 15px 0;
+  }
+
+  .modal-delete-account .modal-form .wrapper-modal-form span{
+    font-size: 12px;
+  }
+
+  .modal-delete-account .modal-form .wrapper-modal-form .switch-modal{
+    display: none;
+  }
+
+  .modal-delete-account .modal-form .wrapper-modal-form .switch-modal-mobile{
+    display: flex;
+  }
+
+  .modal-delete-account .modal-form .wrapper-modal-form .switch-modal p{
+    font-size: 12px;
+  }
+
+  .modal-delete-account .modal-form .modal-buttons{
+    margin-top: 15px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: normal;
+    width: 100%;
+  }
+
+  .modal-delete-account .modal-form .modal-buttons .close-modal{
+     justify-content: center;
+    margin-top: 10px;
+  }
+
+
+  .modal-delete-account .modal-form .modal-buttons .btn-delete{
+    justify-content: center;
+  }
+
+
+
+}
+
+
+
+@media (max-width: 480px){
+  .iti__country-list{
+    width: 300px;
+  }
+  .new-request .form .form-input-box {
+    margin-top: 0;
+  }
+
+  .new-request .form .form-input-box .title {
+    display: none;
+  }
+
+  .todos-switch{
+    background: var(--openWhite);
+    padding: 3px 10px;
+    padding-top: 10px;
+    margin-top: 24px;
+    height: 85px;
+  }
+
+  /*.todos-switch.active{*/
+  /*  margin-top: 55px;*/
+  /*}*/
+
+  .new-request .form .todos{
+    height: 39px;
+  }
+
+  .todos-switch-ticket{
+    height: 51px;
+    margin-top: 0;
+  }
+
+  /*.todos-switch-ticket.active{*/
+  /*  margin-top: 29px;*/
+  /*}*/
+
+  .new-request .form .footer-buttons{
+    padding: 10px;
+  }
+
+  .new-request .form .footer-buttons{
+    margin-top: 30px;
+  }
+
+  .ticket .new-request .form-inputs-ticket{
+    height: calc(100% - 66.5px) !important;
+  }
+
+  /*.ticket .new-request .todos-switch-ticket{*/
+  /*  margin-top: 41px;*/
+  /*}*/
+
+  .ticket  .new-request .form .form-input-box-ticket{
+    height: calc(100% - 80px);
+  }
+
+  .new-request .form .switch-new-ticket .switch-new-ticket-title{
+    font-size: 10px;
+  }
+
+  .new-request .form .switch-new-ticket{
+    display: none;
+  }
+
+  .new-request .form .switch-new-ticket-mobile{
+    display: flex;
+  }
+
+  .new-request .form .footer-buttons .footer-buttons-btn {
+    font-size: 0;
+
+  }
+
+  .new-request .form .footer-buttons a{
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  .new-request .form .footer-buttons .footer-buttons-btn-green {
+    margin-left: 10px;
+    white-space: nowrap;
+    width: 100% ;
+  }
+
+  .new-request .form .footer-buttons .footer-img-file{
+    display: none !important;
+  }
+
+  .new-request .form .footer-buttons .footer-img-file.active{
+    display: initial !important;
+  }
+
+  .new-request .form .footer-buttons .footer-img-loading{
+    display: none !important;
+  }
+
+  .new-request .form .footer-buttons .footer-img-loading.active{
+    display: initial !important;
+  }
+
+
+
+  .new-request .form .footer-buttons .footer-buttons-btn img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7px;
+  }
+
+
+  .new-request .form .form-inputs {
+    padding: 0 0 10px 0;
+    height: calc(100% - 96.5px);
+    /*height: calc(100% - 170px);*/
+  }
+
+  .step1-standard-explanation {
+   font-size: 10px;
+    margin-top: 5px;
+  }
+
+  .step-sms-info .step-sms-text{
+    font-size: 10px;
+  }
+
+  .step-sms-info .step-sms-text .link-blue{
+    font-size: 10px;
+  }
+
+  .steps-block2 .note{
+    font-size: 10px;
+  }
+
+  .steps-block3 .note{
+    font-size: 10px;
+  }
+
+
+  .steps-block5 .note{
+      font-size: 10px;
+  }
+
+  .steps-block6 .note{
+      font-size: 10px;
+  }
+
+  .steps-block7 .note{
+      font-size: 10px;
+  }
+
+  .steps-block8 .inner h4{
+    font-size: 12px;
+  }
+
+  .steps-block9 .note{
+    font-size: 10px;
+  }
+
+  .steps-block10 .note{
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 375px){
+  .filed-phone-mobile .filed-phone-numbers{
+    left: -117px;
+  }
+}
+
+
+@media (max-width: 320px){
+  .email{
+    padding: 0 10px;
+  }
+
+  .history-of-dialogues .buttons button{
+    margin-right: 5px;
+  }
+
+
+
+}

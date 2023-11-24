@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#00CF91">
+  <meta name="msapplication-navbutton-color" content="#00CF91">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="#00CF91">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="android-chrome-192x192.png">
+  <meta name="msapplication-config" content="browserconfig.xml"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+  <script src="js/input-mask.js"></script>
+  <title>New Ticket</title>
+</head>
+<body class="new-ticket-body">
+
+<nav class="navbar">
+  <div class="navbar-content">
+    <a href="index.html">
+      <img src="assets/images/logo-site.svg" alt="logo site">
+    </a>
+
+
+    <div class="navbar-usr-info">
+      <a href="#">
+        <div class="rocket-icon">
+          <img src="assets/icons/rocket.svg" alt="rocket" class="rocket-icon-green">
+          <img src="assets/icons/rocket-black.svg" alt="rocket" class="rocket-icon-black">
+        </div>
+      </a>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="help"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/energi.svg" alt="energi" class="profile-dropdowns-toggle-icon">
+            Мастер быстрой настройки
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/book.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            База знаний Ainox
+          </a>
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/send-message.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Поддержка в Telegram
+          </a>
+          <a href="ticket-message.html" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/help.svg" alt="help" class="profile-dropdowns-toggle-icon">
+            Диалоги с поддержкой
+          </a>
+          <a class="btn-black-parent menu-btn" href="new-ticket.html" >
+            <button class="btn-black">
+              <img src="assets/icons/quation.svg" alt="quation" class="profile-dropdowns-toggle-icon">
+              Создать обращение
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="user-profile"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Ночной режим
+          </div>
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Выйти
+          </div>
+          <div class="profile-dropdowns-toggle-item btn-delete-account">
+            <img src="assets/icons/remove-account.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Удалить аккаунт
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+<div class="container container-new-ticket">
+
+  <div class="technical-support">
+    <button class="btn-transparent btn-transparent-new-ticket">
+      <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+      Техническая поддержка
+    </button>
+    <h2 class="heading-tew-ticket">Новый запрос в техподдержку</h2>
+    <p class="title-new-ticket">Ваш запрос будет обработан специалистом техподдержки Ainox. Перед отправкой запроса
+      рекомендуем поискать ответ в нашей
+      <a class="link-blue" href="#">базе знаний.</a>
+    </p>
+    <div class="watch-box">
+      <img src="assets/icons/watch.svg" alt="watch">
+      <span>На связи в рабочие дни с 09:00 до 18:00 по Московскому времени</span>
+    </div>
+    <div class="footer-btn-new-ticket">
+      <label class="fields-new-ticket">
+        <input type="submit" class="submit-new-ticket " value="Опишите вашу проблему...">
+      </label>
+    </div>
+  </div>
+
+</div>
+
+<div class="new-request">
+    <div class="modal-delete-new-ticket"></div>
+  <div class="form">
+
+    <div class="form-inputs">
+        <div class="form-heading">
+          <span>Новый запрос</span>
+          <div class="icons">
+            <img class="X botom-left" src="assets/icons/bottom-left-arrow.svg" alt="botom-left">
+            <img class="exit-newRequest" src="assets/icons/X.svg" alt="X">
+          </div>
+        </div>
+        <div class="form-input-box">
+          <p class="title mb-15">Введите свой запрос</p>
+          <div class="inputs">
+            <label class="def-fields def-fields-text new-tickets-fields">
+              <span class="def-fields-title new-tickets-span">E-mail</span>
+              <input type="email" class="def-fields-input mask-email new-tickets-email" placeholder="_@_._">
+              <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+              <img class="def-fields-icon-edit" src="assets/icons/edit-input.svg" alt="key-icon">
+            </label>
+            <label class="filed-phone filed-phone-new-tickets">
+              <span class="filed-phone-countries">
+                <img src="https://www.countryflagicons.com/FLAT/64/RU.png" alt="flag" width="30" class="filed-phone-countries-flag">
+                <img src="assets/icons/down.svg" alt="down" class="filed-phone-countries-downIcon">
+                <span class="filed-phone-numbers"></span>
+              </span>
+              <input class="filed-phone-country-code" value="+7" size="2" maxlength="5" />
+              <input type="text" class="filed-phone-input">
+              <span class="filed-phone-placeholder">Телефон</span>
+            </label>
+            <label class="new-tickets-fields-mobile">
+              <img src="assets/icons/mail.svg" alt="mail">
+              <input type="email" placeholder="Ваш e-mail">
+            </label>
+            <label class="filed-phone filed-phone-mobile">
+              <span class="filed-phone-countries">
+                <img src="https://www.countryflagicons.com/FLAT/64/RU.png" alt="flag" width="30" class="filed-phone-countries-flag">
+                <img src="assets/icons/down.svg" alt="down" class="filed-phone-countries-downIcon">
+                <span class="filed-phone-numbers"></span>
+              </span>
+              <input class="filed-phone-country-code" value="+7" size="2" maxlength="5" />
+              <input type="text" class="filed-phone-input">
+            </label>
+<!--            <label class="new-tickets-fields-mobile">-->
+<!--              <img src="assets/icons/phone.svg" alt="phone">-->
+<!--              <input type="number" placeholder="Ваш телефон">-->
+<!--            </label>-->
+          </div>
+          <div class="subject">
+            <label class="def-fields subject-fields def-fields-text">
+              <span class="def-fields-title">Тема</span>
+              <input type="text" class="def-fields-input mask-fio" placeholder="О чем мой запрос...">
+            </label>
+            <label class="subject-fields-mobile">
+              <span class="sub">Тема</span>
+              <input type="text" class="def-fields-input-mobile" placeholder="О чем мой запрос...">
+            </label>
+            <label class="textarea-fields">
+              <!--          <span class="def-fields-title">Тема</span>-->
+              <textarea name="subject-textarea" id="Description" placeholder="Опишите вашу проблему..."></textarea>
+            </label>
+          </div>
+        </div>
+      <div class="todos-switch">
+         <div class="todos">
+           <div class="todo-item">
+             Документ.pdf
+             <img class="fa-trash" src="assets/icons/fa-trash.svg" alt="trash">
+           </div>
+         </div>
+         <div class="switch-new-ticket">
+           <label class="def-switch">
+             <input type="checkbox">
+             <span></span>
+           </label>
+           <p class="switch-new-ticket-title">
+             Даю
+             <a class="link-blue" href="#">согласие</a>
+             на обработку моих персональных данных
+           </p>
+         </div>
+      <div class="switch-new-ticket switch-new-ticket-mobile">
+        <p class="switch-new-ticket-title">
+          Даю
+          <a class="link-blue" href="#">согласие</a>
+          на обработку моих персональных данных
+        </p>
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+      </div>
+      </div>
+    </div>
+    <div class="footer-buttons">
+      <label class="btn-white footer-buttons-btn">
+        <img class="footer-img-file active" src="assets/icons/loading-icon.svg" alt="loading">
+        <img class="footer-img-loading" src="assets/icons/loading.svg" alt="arrow">
+        <input type="file" class="input-loading d-none" multiple="multiple"
+               accept="image/png, image/jpeg, image/jpg, application/pdf">
+        Загрузить
+      </label>
+      <a href="ticket.html">
+        <button class="btn-green footer-buttons-btn-green">
+          Отправить запрос
+          <img src="assets/icons/arrow-right.svg" alt="arrow-right">
+        </button>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="menu-back-fon-tel active"></div>
+</div>
+
+<div class="upload-box">
+  <img src="assets/images/upload.png" alt="uplaod">
+</div>
+
+
+<div class="modal-delete-account">
+  <div class="modal-delete-account-body"></div>
+  <div class="modal-form">
+    <h2 class="modal-form-heading">Подтвердите удаление аккаунта</h2>
+    <p class="modal-form-title">Все данные об аккаунте будут незамедлительно удалены. Восстановление не возможно.</p>
+    <div class="wrapper wrapper-modal-form">
+      <span>Подтвердите удаление</span>
+      <div class="switch-modal">
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+        <p>Подтверждаю удаление аккаунта без возможности восстановления.</p>
+      </div>
+      <div class="switch-modal switch-modal-mobile">
+        <p>Подтверждаю удаление аккаунта без возможности восстановления.</p>
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+      </div>
+    </div>
+    <div class="modal-buttons">
+      <button class="close-modal">
+        <img src="assets/icons/X.svg" alt="X">
+        Отмена
+      </button>
+      <button class="btn-delete">
+        Удалить аккаунт
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="js/mask-data.js"></script>
+<script src="js/fastfront.js"></script>
+<script src="js/main.js"></script>
+<script src="js/new-ticket.js"></script>
+</body>
+</html>

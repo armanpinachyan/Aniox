@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#00CF91">
+  <meta name="msapplication-navbutton-color" content="#00CF91">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="#00CF91">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+  <script src="js/input-mask.js"></script>
+  <title>Email</title>
+</head>
+<body>
+
+
+<nav class="navbar">
+  <div class="navbar-content">
+    <a href="index.html">
+      <img src="assets/images/logo-site.svg" alt="logo site">
+    </a>
+
+
+    <div class="navbar-usr-info">
+      <a href="#">
+        <div class="rocket-icon">
+          <img src="assets/icons/rocket.svg" alt="rocket" class="rocket-icon-green">
+          <img src="assets/icons/rocket-black.svg" alt="rocket" class="rocket-icon-black">
+        </div>
+      </a>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="help"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/energi.svg" alt="energi" class="profile-dropdowns-toggle-icon">
+            Мастер быстрой настройки
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/book.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            База знаний Ainox
+          </a>
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/send-message.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Поддержка в Telegram
+          </a>
+          <a href="ticket-message.html" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/help.svg" alt="help" class="profile-dropdowns-toggle-icon">
+            Диалоги с поддержкой
+          </a>
+          <a href="new-ticket.html" class="menu-btn">
+            <button class="btn-black">
+              <img src="assets/icons/quation.svg" alt="quation" class="profile-dropdowns-toggle-icon">
+              Создать обращение
+            </button>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+<div class="email emaile">
+
+      <div class="email-box emaile-box">
+        <div class="image">
+          <img src="assets/images/email.png" alt="email">
+        </div>
+        <div class="wrapper">
+          <h3 class="email-box-title">Проверьте свою почту</h3>
+          <p class="email-box-subtitle">
+            Для завершения регистрации нужно подтвердить владение указанным при регистрации почтовым ящиком
+          </p>
+          <p class="email-change-kod emaile-box-change">
+            Мы отправили сообщение с кодом подтверждения на e-mail
+            <a href="#"> Код не пришел?</a>
+          </p>
+        </div>
+        <a href="steps.html" class="register-now sign-emaile">
+          <img src="assets/icons/exit-black.svg" alt="exit">
+          Войти
+        </a>
+      </div>
+
+
+    </div>
+
+
+<div class="modal-delete-account">
+  <div class="modal-delete-account-body"></div>
+  <div class="modal-form">
+    <h2 class="modal-form-heading">Подтвердите удаление аккаунта</h2>
+    <p class="modal-form-title">Все данные об аккаунте будут незамедлительно удалены. Восстановление не возможно.</p>
+    <div class="wrapper wrapper-modal-form">
+      <span>Подтвердите удаление</span>
+      <div class="switch-modal">
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+        <p>Подтверждаю удаление аккаунта без возможности восстановления.</p>
+      </div>
+      <div class="switch-modal switch-modal-mobile">
+        <p>Подтверждаю удаление аккаунта без возможности восстановления.</p>
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+      </div>
+    </div>
+    <div class="modal-buttons">
+      <button class="close-modal">
+        <img src="assets/icons/X.svg" alt="X">
+        Отмена
+      </button>
+      <button class="btn-delete">
+        Удалить аккаунт
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="js/mask-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

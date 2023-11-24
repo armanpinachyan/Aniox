@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#00CF91">
+  <meta name="msapplication-navbutton-color" content="#00CF91">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="#00CF91">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="android-chrome-192x192.png">
+  <meta name="msapplication-config" content="browserconfig.xml"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+  <script src="js/input-mask.js"></script>
+  <title>Ticket Message</title>
+</head>
+<body class="ticket-message">
+
+<div class="got-a-message">
+  <div class="container got-a-message-container">
+    <p> Вы получили сообщение от техподдержки </p>
+    <img src="assets/icons/arrow-right.svg" alt="arrow-right">
+  </div>
+</div>
+
+<nav class="navbar actives">
+  <div class="navbar-content">
+    <a href="index.html">
+      <img src="assets/images/logo-site.svg" alt="logo site">
+    </a>
+
+
+    <div class="navbar-usr-info">
+      <a href="#">
+        <div class="rocket-icon">
+          <img src="assets/icons/rocket.svg" alt="rocket" class="rocket-icon-green">
+          <img src="assets/icons/rocket-black.svg" alt="rocket" class="rocket-icon-black">
+        </div>
+      </a>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="help"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/energi.svg" alt="energi" class="profile-dropdowns-toggle-icon">
+            Мастер быстрой настройки
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/book.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            База знаний Ainox
+          </a>
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/send-message.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Поддержка в Telegram
+          </a>
+          <a href="ticket-message.html" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/help.svg" alt="help" class="profile-dropdowns-toggle-icon">
+            Диалоги с поддержкой
+          </a>
+          <a href="new-ticket.html" class="menu-btn">
+            <button class="btn-black">
+              <img src="assets/icons/quation.svg" alt="quation" class="profile-dropdowns-toggle-icon">
+              Создать обращение
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="user-profile"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Ночной режим
+          </div>
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Выйти
+          </div>
+          <div class="profile-dropdowns-toggle-item btn-delete-account">
+            <img src="assets/icons/remove-account.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Удалить аккаунт
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container ticket-message-container">
+
+  <div class="ticket-message-description actives">
+    <button class="btn-transparent btn-transparent-ticket">
+      <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+      Техническая поддержка
+    </button>
+    <h2 class="heading-ticket-message">
+      Техническая поддержка
+    </h2>
+    <p class="title-ticket-message">
+      «Живое» общение с командой Ainox по техническим и организационным вопросам.
+    </p>
+    <div class="watch-box">
+      <img src="assets/icons/watch.svg" alt="watch">
+      <span>На связи в рабочие дни с 09:00 до 18:00 по Московскому времени</span>
+    </div>
+    <a href="new-ticket.html">
+      <button class="btn-black">
+        <img src="assets/icons/message-icon.svg" alt="message-icon">
+        Создать обращение
+      </button>
+    </a>
+  </div>
+
+  <div class="history-of-dialogues">
+    <h2 class="history-of-dialogues-heading">История диалогов</h2>
+    <div class="buttons">
+      <button class="btn-status all-opened active" data-type="all">
+        <i class="icon" data-name="all-open"></i>
+        Все открытые
+      </button>
+      <button class="btn-status no-read disabled" data-type="no-read">
+        <i class="icon" data-name="notification"></i>
+        Не прочитано
+      </button>
+      <button class="btn-status wait disabled" data-type="wait">
+        <i class="icon" data-name="loading"></i>
+        Ожидает ответ
+      </button>
+      <button class="btn-status read-it disabled" data-type="read-it">
+        <i class="icon" data-name="view"></i>
+        Прочитано
+      </button>
+      <button class="btn-status closed disabled" data-type="closed">
+        <i class="icon" data-name="check"></i>
+        Закрыто
+      </button>
+    </div>
+    <div class="wrappers">
+      <a href="ticket.html">
+        <div class="wrapper wrapper-ticket-message" data-type="no-read">
+          <div class="buttons-wrapper">
+            <button class="btn-status no-read ">
+              <i class="icon" data-name="notification"></i>
+              Не прочитано
+            </button>
+            <span>
+              <img src="assets/icons/check-mark.svg" alt="chek-mark">
+              CS-999999999
+            </span>
+          </div>
+          <h4 class="wrapper-title">
+            Как я могу оформить договор и платить вам еще больше денег если у меня миллион подписчиков?
+          </h4>
+          <p class="wrapper-subtitle">Обновлено 21 мая 2023 г. в 10:11</p>
+        </div>
+      </a>
+      <a href="ticket.html">
+        <div class="wrapper wrapper-ticket-message" data-type="wait">
+          <div class="buttons-wrapper">
+            <button class="btn-status wait ">
+              <i class="icon" data-name="loading"></i>
+              Ожидает ответ
+            </button>
+            <span>
+              <img src="assets/icons/check-mark.svg" alt="chek-mark">
+              CS-999999999
+            </span>
+          </div>
+            <h4 class="wrapper-title-min">Настройка интеграции с сайтом</h4>
+          <p class="wrapper-subtitle-min">Обновлено 21 мая 2023 г. в 10:11</p>
+        </div>
+      </a>
+      <a href="ticket.html">
+        <div class="wrapper wrapper-ticket-message" data-type="read-it">
+          <div class="buttons-wrapper">
+            <button class="btn-status read-it ">
+              <i class="icon" data-name="view"></i>
+              Прочитано
+            </button>
+            <span>
+              <img src="assets/icons/check-mark.svg" alt="chek-mark">
+              CS-999999999
+            </span>
+          </div>
+            <h4 class="wrapper-title-min">Не работает отправка уведомлений о том, что я не читаю инструкции</h4>
+          <p class="wrapper-subtitle-min">Обновлено 21 мая 2023 г. в 10:11</p>
+        </div>
+      </a>
+      <a href="ticket.html">
+        <div class="wrapper wrapper-ticket-message" data-type="closed">
+          <div class="buttons-wrapper">
+            <button class="btn-status closed ">
+              <i class="icon" data-name="check"></i>
+              Закрыто
+            </button>
+            <span>
+              <img src="assets/icons/check-mark.svg" alt="chek-mark">
+              CS-999999999
+            </span>
+          </div>
+          <h4 class="wrapper-title-min">Настройка интеграции с сайтом</h4>
+          <p class="wrapper-subtitle-min">Обновлено 21 мая 2023 г. в 10:11</p>
+        </div>
+      </a>
+    </div>
+    <span class="footer-title">Показано диалогов: 25 из 45</span>
+<!--    <button class="btn-gray">-->
+<!--      <img src="assets/icons/Arrows%20Synchronize.svg" alt="arrow">-->
+<!--      Загрузить еще-->
+<!--    </button>-->
+    <button class="btn-gray">
+      <img src="assets/icons/Arrows%20Synchronize.svg" alt="arrow" class="loading-file-btn-default">
+      <img src="assets/icons/loading.svg" alt="arrow" class="loading-file-btn-loading">
+      Загрузить еще
+    </button>
+  </div>
+
+</div>
+
+
+<div class="modal-delete-account">
+  <div class="modal-delete-account-body"></div>
+  <div class="modal-form">
+    <h2 class="modal-form-heading">Подтвердите удаление аккаунта</h2>
+    <p class="modal-form-title">Все данные об аккаунте будут незамедлительно удалены. Восстановление не возможно.</p>
+    <div class="wrapper wrapper-modal-form">
+      <span>Подтвердите удаление</span>
+      <div class="switch-modal">
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+        <p>Подтверждаю удаление аккаунта без возможности восстановления.</p>
+      </div>
+      <div class="switch-modal switch-modal-mobile">
+        <p>Подтверждаю удаление аккаунта без возможности восстановления.</p>
+        <label class="def-switch">
+          <input type="checkbox">
+          <span></span>
+        </label>
+      </div>
+    </div>
+    <div class="modal-buttons">
+      <button class="close-modal">
+        <img src="assets/icons/X.svg" alt="X">
+        Отмена
+      </button>
+      <button class="btn-delete">
+        Удалить аккаунт
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="js/mask-data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/ticket-message.js"></script>
+</body>
+</html>

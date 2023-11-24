@@ -1,0 +1,1050 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="for-component-html/prism.css">
+
+
+  <script src="js/input-mask.js"></script>
+  <script src="for-component-html/prism.js"></script>
+  <title>Components</title>
+
+
+  <style>
+    .button-row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+  </style>
+
+
+</head>
+<body style="padding: 20px 20px 100px;background-color: #fff">
+
+
+<br><br><br><br><br>
+<nav class="navbar">
+  <div class="navbar-content">
+    <a href="index.html">
+      <img src="assets/images/logo-site.svg" alt="logo site">
+    </a>
+
+    <div class="navbar-items">
+      <a href="#" class="navbar-item">
+        <i class="icon" data-name="users"></i>
+        Подписчики
+      </a>
+      <a href="#" class="navbar-item">
+        <i class="icon" data-name="money-cash"></i>
+        Операции
+      </a>
+      <a href="#" class="navbar-item">
+        <i class="icon" data-name="shipping-box"></i>
+        Продукты
+      </a>
+      <div class="profile-dropdowns menu">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="more-menu"></i>
+          Еще
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/analytic.svg" alt="energi" class="profile-dropdowns-toggle-icon">
+            Аналитика
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/settigns.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Настройки
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-usr-info">
+      <a href="#">
+        <div class="rocket-icon active">
+          <img src="assets/icons/rocket.svg" alt="rocket" class="rocket-icon-green">
+          <img src="assets/icons/rocket-black.svg" alt="rocket" class="rocket-icon-black">
+        </div>
+      </a>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="help"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/energi.svg" alt="energi" class="profile-dropdowns-toggle-icon">
+            Мастер быстрой настройки
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/book.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            База знаний Ainox
+          </a>
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/send-message.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Поддержка в Telegram
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/help.svg" alt="help" class="profile-dropdowns-toggle-icon">
+            Диалоги с поддержкой
+          </a>
+          <button class="btn-black">
+            <img src="assets/icons/quation.svg" alt="quation" class="profile-dropdowns-toggle-icon">
+            Создать обращение
+          </button>
+        </div>
+      </div>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="user-profile"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Ночной режим
+          </div>
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Выйти
+          </div>
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/remove-account.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Удалить аккаунт
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+<div class="mobile-menu-item-toggle" id="more">
+  <a href="#" class="mobile-menu-item-toggle-item">
+    <img src="assets/icons/analytic.svg" alt="icon">
+    Аналитика
+  </a>
+  <a href="#" class="mobile-menu-item-toggle-item">
+    <img src="assets/icons/settigns.svg" alt="icon">
+    Настройки
+  </a>
+</div>
+
+<div class="mobile-menu">
+  <a href="#" class="mobile-menu-item">
+    <i class="icon" data-name="users"></i>
+    Подписчики
+  </a>
+  <a href="#" class="mobile-menu-item active">
+    <i class="icon" data-name="money-cash"></i>
+    Операции
+  </a>
+  <a href="#" class="mobile-menu-item">
+    <i class="icon" data-name="shipping-box"></i>
+    Продукты
+  </a>
+  <div class="mobile-menu-item" data-toggle="more">
+    <i class="icon" data-name="more-menu"></i>
+    Еще
+  </div>
+</div>
+
+
+<label class="filed-phone mb-100">
+  <span class="filed-phone-countries">
+    <img src="https://www.countryflagicons.com/FLAT/64/RU.png" alt="flag" width="30" class="filed-phone-countries-flag">
+    <img src="assets/icons/down.svg" alt="down" class="filed-phone-countries-downIcon">
+    <span class="filed-phone-numbers"></span>
+  </span>
+  <input class="filed-phone-country-code" value="+7" size="2" maxlength="5" />
+  <input type="text" class="filed-phone-input">
+  <span class="filed-phone-placeholder">Телефон</span>
+</label>
+
+
+<h1>#Input Fields</h1>
+<br>
+
+<label class="def-fields text">
+  <span class="def-fields-title">TEXT</span>
+  <input type="email" class="def-fields-input" placeholder="_@_._">
+  <span class="def-fields-text-body" contenteditable="true">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto commodi, consequuntur cupiditate delectus enim eos est eveniet id illum nemo perferendis quas quibusdam quod recusandae, repellendus soluta, ut voluptate.
+  </span>
+  <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+</label>
+
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields text">
+  <span class="def-fields-title">TEXT</span>
+  <input type="email" class="def-fields-input" placeholder="_@_._">
+  <span class="def-fields-text-body" contenteditable="true">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. quod recusandae, repellendus soluta, ut voluptate.
+  </span>
+  <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+<div class="ps-20 mt-25">
+  <label class="def-fields text disabled">
+    <span class="def-fields-title">TEXT</span>
+    <input type="email" class="def-fields-input" placeholder="_@_._">
+    <span class="def-fields-text-body">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto commodi, consequuntur cupiditate delectus enim eos est eveniet id illum nemo perferendis quas quibusdam quod recusandae, repellendus soluta, ut voluptate.
+    </span>
+    <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+    <img class="def-fields-text-icon-edit" src="assets/icons/edit-input.svg" alt="key-icon">
+  </label>
+  <pre>
+    <code class="language-html">
+      <xmp>
+   <label class="def-fields text disabled">
+      <span class="def-fields-title">TEXT</span>
+      <input type="email" class="def-fields-input" placeholder="_@_._">
+      <span class="def-fields-text-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.repellendus soluta, ut voluptate.
+      </span>
+      <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+      <img class="def-fields-text-icon-edit" src="assets/icons/edit-input.svg" alt="key-icon">
+    </label>
+      </xmp>
+    </code>
+  </pre>
+  <br>
+  <label class="def-fields text disabled">
+    <span class="def-fields-title">TEXT</span>
+    <input type="email" class="def-fields-input" placeholder="_@_._">
+    <span class="def-fields-text-body">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto commodi, consequuntur cupiditate delectus enim eos est eveniet id illum nemo perferendis quas quibusdam quod recusandae, repellendus soluta, ut voluptate.
+    </span>
+  </label>
+  <pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields text disabled">
+    <span class="def-fields-title">TEXT</span>
+    <input type="email" class="def-fields-input" placeholder="_@_._">
+    <span class="def-fields-text-body">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. quas quibusdam quod recusandae, repellendus soluta, ut voluptate.
+    </span>
+  </label>
+    </xmp>
+  </code>
+</pre>
+</div>
+
+<br>
+
+<label class="def-fields def-fields-text">
+  <span class="def-fields-title">E-mail</span>
+  <input type="email" class="def-fields-input mask-email" placeholder="_@_._">
+  <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+</label>
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields def-fields-text">
+  <span class="def-fields-title">E-mail</span>
+  <input type="email" class="def-fields-input mask-email" placeholder="_@_._">
+  <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+
+<br>
+
+<label class="def-fields password">
+  <span class="def-fields-title">Пароль</span>
+  <input type="password" class="def-fields-input mask-password" placeholder="***********">
+  <img class="def-fields-icon" src="assets/icons/key.svg" alt="key-icon">
+</label>
+<br>
+
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields password">
+  <span class="def-fields-title">Пароль</span>
+  <input type="password" class="def-fields-input mask-password" placeholder="***********">
+  <img class="def-fields-icon" src="assets/icons/key.svg" alt="key-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+
+<div style="padding-left: 20px;">
+  <h2>Disabled input</h2>
+  <br>
+
+  <label class="filed-phone">
+                <span class="filed-phone-countries">
+                  <img src="https://www.countryflagicons.com/FLAT/64/RU.png" alt="flag" width="30" class="filed-phone-countries-flag">
+                  <img src="assets/icons/down.svg" alt="down" class="filed-phone-countries-downIcon">
+                  <span class="filed-phone-numbers"></span>
+                </span>
+    <input class="filed-phone-country-code" value="+7" size="2" maxlength="5" />
+    <input type="text" class="filed-phone-input" value="77769668">
+    <span class="filed-phone-placeholder">Телефон</span>
+    <img class="def-fields-icon-edit" src="assets/icons/edit-input.svg" alt="key-icon">
+  </label>
+  <br><br>
+  <label class="filed-phone disabled">
+                <span class="filed-phone-countries">
+                  <img src="https://www.countryflagicons.com/FLAT/64/RU.png" alt="flag" width="30" class="filed-phone-countries-flag">
+                  <img src="assets/icons/down.svg" alt="down" class="filed-phone-countries-downIcon">
+                  <span class="filed-phone-numbers"></span>
+                </span>
+    <input class="filed-phone-country-code" value="+7" size="2" maxlength="5" />
+    <input type="text" class="filed-phone-input" value="77769668">
+    <span class="filed-phone-placeholder">Телефон</span>
+    <img class="def-fields-icon-edit" src="assets/icons/edit-input.svg" alt="key-icon">
+  </label>
+  <br><br><br>
+</div>
+<br>
+
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="filed-phone">
+  <span class="filed-phone-countries">
+    <img src="https://www.countryflagicons.com/FLAT/64/RU.png" alt="flag" width="30" class="filed-phone-countries-flag">
+    <img src="assets/icons/down.svg" alt="down" class="filed-phone-countries-downIcon">
+    <span class="filed-phone-numbers"></span>
+  </span>
+    <input class="filed-phone-country-code" value="+7" size="2" maxlength="5" />
+    <input type="text" class="filed-phone-input" value="77769668">
+    <span class="filed-phone-placeholder">Телефон</span>
+    <img class="def-fields-icon-edit" src="assets/icons/edit-input.svg" alt="key-icon">
+  </label>
+    </xmp>
+  </code>
+</pre>
+
+
+<label class="def-fields">
+  <span class="def-fields-title">Числовой одноразовый код</span>
+  <input type="text" class="def-fields-input mask-one-key" placeholder="000–000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">Числовой одноразовый код</span>
+  <input type="text" class="def-fields-input mask-one-key" placeholder="000–000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+<br>
+
+<label class="def-fields def-fields-text">
+  <span class="def-fields-title">ИФО</span>
+  <input type="email" class="def-fields-input field-name-surname" placeholder="Иванов Иван Иванович">
+  <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+</label>
+<p class="error-form mb-25 mt-6 d-none error-user-name-surname"></p>
+
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields text">
+  <span class="def-fields-title">ИФО</span>
+  <input type="email" class="def-fields-input" placeholder="Иванов Иван Иванович">
+  <span class="def-fields-text-body" contenteditable="true"></span>
+  <img class="def-fields-icon" src="assets/icons/mail.svg" alt="email-icon">
+</label>
+      <p class="error-form d-none error-user-name-surname"></p>
+    </xmp>
+  </code>
+</pre>
+
+<br>
+
+<label class="def-fields">
+  <span class="def-fields-title">ИНН ИП/Физлица</span>
+  <input type="text" class="def-fields-input mask-physical" placeholder="0000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">ИНН ИП/Физлица</span>
+  <input type="text" class="def-fields-input mask-physical" placeholder="0000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+<br>
+<br>
+
+<label class="def-fields">
+  <span class="def-fields-title">ИНН Юрлица</span>
+  <input type="text" class="def-fields-input mask-jurlitsa" placeholder="0000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+
+
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">ИНН Юрлица</span>
+  <input type="text" class="def-fields-input mask-jurlitsa" placeholder="0000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+<br>
+
+<label class="def-fields">
+  <span class="def-fields-title">ОГРН</span>
+  <input type="text" class="def-fields-input mask-orgn" placeholder="0000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">ОГРН</span>
+  <input type="text" class="def-fields-input mask-orgn" placeholder="0000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+<br>
+
+<label class="def-fields">
+  <span class="def-fields-title">ОГРНИП</span>
+  <input type="text" class="def-fields-input mask-orgnip" placeholder="00000000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">ОГРНИП</span>
+  <input type="text" class="def-fields-input mask-orgnip" placeholder="00000000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+<br>
+
+<label class="def-fields">
+  <span class="def-fields-title">Ссылка</span>
+  <input type="text" class="def-fields-input input-link" placeholder="mysite.ru">
+  <img class="def-fields-icon" src="assets/icons/link.svg" alt="filed-icon">
+</label>
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">Ссылка</span>
+  <input type="text" class="def-fields-input input-link" placeholder="mysite.ru">
+  <img class="def-fields-icon" src="assets/icons/link.svg" alt="filed-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+<br>
+
+<label class="def-fields">
+  <span class="def-fields-title">Серия паспорта</span>
+  <input type="text" class="def-fields-input mask-serial-passport" placeholder="00 00">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">Серия паспорта</span>
+  <input type="text" class="def-fields-input mask-serial-passport" placeholder="00 00">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+<br>
+
+<label class="def-fields">
+  <span class="def-fields-title">Номер паспорта</span>
+  <input type="text" class="def-fields-input" placeholder="000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">Номер паспорта</span>
+  <input type="text" class="def-fields-input" placeholder="000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+
+<br>
+
+<label class="def-fields">
+  <span class="def-fields-title">БИК</span>
+  <input type="text" class="def-fields-input mask-bik" placeholder="000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">БИК</span>
+  <input type="text" class="def-fields-input mask-bik" placeholder="000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+<br>
+
+<label class="def-fields">
+  <span class="def-fields-title">Расчетный счет</span>
+  <input type="text" class="def-fields-input mask-checking-account" placeholder="00000000000000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+<br>
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">Расчетный счет</span>
+  <input type="text" class="def-fields-input mask-checking-account" placeholder="00000000000000000000">
+  <img class="def-fields-icon" src="assets/icons/check-mark.svg" alt="filed-icon">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+<label class="def-fields">
+  <span class="def-fields-title">Дата</span>
+  <input type="date" class="def-fields-input" placeholder="00000000000000000000">
+</label>
+<pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-fields">
+  <span class="def-fields-title">Дата</span>
+  <input type="date" class="def-fields-input" placeholder="00000000000000000000">
+</label>
+    </xmp>
+  </code>
+</pre>
+
+<br>
+
+<h1>#Buttons</h1>
+<br><br>
+<div>
+  <div class="buttons">
+    <h2>Normal buttons</h2>
+    <br>
+    <br>
+    <button class="btn-link">
+      <i class="icon" data-name="link"></i>Стандартный текст
+    </button>
+    <br><br>
+    <button class="go-to-back">
+      <img src="assets/icons/arrow-left.svg" alt="arrow-left">
+      Техническая поддержка
+    </button>
+    <br>
+    <br>
+    <button class="btn-black">
+      Стандартный текст
+      <img src="assets/icons/arrow-right.svg" alt="arrow">
+    </button>
+    <br>
+    <button class="btn-white">
+      <img src="assets/icons/Edit-Attachment.svg" alt="arrow">
+      Стандартный текст
+    </button>
+    <br>
+    <button class="btn-transparent">
+      <img src="assets/icons/Arrows%20Synchronize.svg" alt="arrow">
+      Стандартный текст
+    </button>
+    <br>
+    <button class="btn-gray">
+      <img src="assets/icons/Arrows%20Synchronize.svg" alt="arrow">
+      Стандартный текст
+    </button>
+    <br>
+    <button class="btn-green">
+      Стандартный текст
+      <img src="assets/icons/arrow-right.svg" alt="arrow">
+    </button>
+  </div>
+</div>
+<br>
+<br>
+<button class="btn-white loading-file-btn disabled" disabled>
+  <img src="assets/icons/loading.svg" alt="arrow">
+  Загружаем
+</button>
+
+<div style="width: 50%">
+  <pre>
+  <code class="language-html">
+    <xmp>
+<button class="btn-white loading-file-btn disabled" disabled>
+  <img src="assets/icons/loading.svg" alt="arrow">
+  Загружаем
+</button>
+    </xmp>
+  </code>
+</pre>
+</div>
+
+<br>
+<br>
+
+<h1>#Switch</h1>
+<br>
+<label class="def-switch">
+  <input type="checkbox">
+  <span></span>
+</label>
+
+<div style="width: 50%">
+  <pre>
+  <code class="language-html">
+    <xmp>
+<label class="def-switch">
+  <input type="checkbox">
+  <span></span>
+</label>
+    </xmp>
+  </code>
+</pre>
+</div>
+
+<br><br>
+<h1>#Alerts</h1>
+<br><br>
+<div class="alert success">
+  <p>
+    Стандартный текст и акцент со <a href="#">ссылкой</a>
+  </p>
+  <i class="icon" data-name="close"></i>
+</div>
+<div style="width: 50%">
+  <pre>
+  <code class="language-html">
+    <xmp>
+<div class="alert success">
+  <p>
+    Стандартный текст и акцент со <a href="#">ссылкой</a>
+  </p>
+  <i class="icon" data-name="close"></i>
+</div>
+    </xmp>
+  </code>
+</pre>
+</div>
+
+<br><br>
+<h1>#Labels</h1>
+<br><br>
+<div class="note big">
+    <img src="assets/icons/russian-flag.svg" alt="flag">
+    Стандартный текст и акцент со <a href="#">ссылкой</a>
+</div>
+
+<div style="width: 50%">
+  <pre>
+  <code class="language-html">
+    <xmp>
+<div class="note big">
+    <img src="assets/icons/russian-flag.svg" alt="flag">
+    Стандартный текст и акцент со <a href="#">ссылкой</a>
+</div>
+    </xmp>
+  </code>
+</pre>
+</div>
+<br>
+<div class="note warning">
+  <img src="assets/icons/warning.svg" alt="flag">
+  Стандартный текст и акцент со <a href="#">ссылкой</a>
+</div>
+<div style="width: 50%">
+  <pre>
+  <code class="language-html">
+    <xmp>
+<div class="note warning">
+  <img src="assets/icons/warning.svg" alt="flag">
+  Стандартный текст и акцент со <a href="#">ссылкой</a>
+</div>
+    </xmp>
+  </code>
+</pre>
+</div>
+
+<br><br>
+<h1>#Buttons Status</h1>
+<br><br>
+
+<div class="button-row">
+  <div class="buttons">
+    <h2>Active status</h2>
+    <br>
+    <br>
+    <button class="btn-status all-opened">
+      <i class="icon" data-name="all-open"></i>
+      Все открытые
+    </button>
+    <br>
+    <br>
+    <button class="btn-status no-read">
+      <i class="icon" data-name="notification"></i>
+      Не прочитано
+    </button>
+    <br>
+    <br>
+    <button class="btn-status wait">
+      <i class="icon" data-name="loading"></i>
+      Ожидает ответ
+    </button>
+    <br>
+    <br>
+    <button class="btn-status read-it">
+      <i class="icon" data-name="view"></i>
+      Прочитано
+    </button>
+    <br>
+    <br>
+    <button class="btn-status closed">
+      <i class="icon" data-name="check"></i>
+      Закрыто
+    </button>
+  </div>
+  <div class="buttons">
+    <h2>Inactive status</h2><br>
+    <br>
+    <button class="btn-status all-opened disabled">
+      <i class="icon" data-name="all-open"></i>
+      Все открытые
+    </button>
+    <br>
+    <br>
+    <button class="btn-status no-read disabled">
+      <i class="icon" data-name="notification"></i>
+      Не прочитано
+    </button>
+    <br>
+    <br>
+    <button class="btn-status wait disabled">
+      <i class="icon" data-name="loading"></i>
+      Ожидает ответ
+    </button>
+    <br>
+    <br>
+    <button class="btn-status read-it disabled">
+      <i class="icon" data-name="view"></i>
+      Прочитано
+    </button>
+    <br>
+    <br>
+    <button class="btn-status closed disabled">
+      <i class="icon" data-name="check"></i>
+      Закрыто
+    </button>
+  </div>
+</div>
+
+<br><br>
+<h1>#Pararaph</h1>
+<br><br>
+
+<p class="standard-p mt-25 mb-25">
+  Вы в паре шагов от запуска продаж, осталось сделать несколько настроек. Процедура состоит из двух этапов:
+</p>
+
+
+<p class="standard-explanation mt-25 mb-25">
+  Вы в паре шагов от запуска продаж, осталось сделать несколько настроек. Процедура состоит из двух этапов:
+</p>
+<p class="standard-explanation mt-25 mb-25">
+  Вы в паре шагов от запуска продаж, осталось сделать несколько настроек. Процедура состоит из двух этапов:
+</p>
+<p class="icon-accent">
+  <img src="assets/icons/error-rounded.svg" alt="rounded">
+  Стандартный текст и акцент со <a href="#">ссылкой</a>
+</p>
+<p class="error-form mt-25">
+  <span>
+    Стандартный текст и акцент со <a href="#">ссылкой</a>
+  </span>
+  <span>-3</span>
+</p>
+<p class="form-title mt-25 mb-25">
+  Стандартный текст
+</p>
+
+<div class="menu-list-with-content">
+  <span>
+    1
+  </span>
+  Диалоги с поддержкой
+</div>
+<div class="menu-list-with-content active">
+  <span>
+    2
+  </span>
+  Диалоги с поддержкой
+</div>
+<div class="menu-list-with-content no-active">
+  <span>
+    3
+  </span>
+  Диалоги с поддержкой
+</div>
+
+
+<br><br>
+<h1>#Selects</h1>
+<br><br>
+
+
+
+<div class="def-select">
+  <select data-title="СЕРИЯ ПАСПОРТА">
+    <option value="text" data-subtitle="text-subtitle1">Text</option>
+    <option value="text1" data-subtitle="text-subtitle1">Text1</option>
+    <option value="text2" data-subtitle="text-subtitle2">Text2</option>
+    <option value="text3" data-subtitle="text-subtitle3">Text3</option>
+  </select>
+  <div class="def-select-content"></div>
+</div>
+
+<div style="width: 50%">
+  <pre>
+  <code class="language-html">
+    <xmp>
+<div class="def-select">
+  <select data-title="СЕРИЯ ПАСПОРТА">
+    <option value="text" data-subtitle="text-subtitle1">Text</option>
+    <option value="text1" data-subtitle="text-subtitle1">Text1</option>
+    <option value="text2" data-subtitle="text-subtitle2">Text2</option>
+    <option value="text3" data-subtitle="text-subtitle3">Text3</option>
+  </select>
+  <div class="def-select-content"></div>
+</div>
+    </xmp>
+  </code>
+</pre>
+</div>
+
+<br><br>
+<h1>#Full Navbar Code</h1>
+<br><br>
+
+
+<div class="box-responsife">
+  <label class="new-tickets-fields-mobile">
+    <img src="assets/icons/mail.svg" alt="mail">
+    <input type="email" placeholder="Ваш e-mail">
+  </label>
+  <label class="new-tickets-fields-mobile">
+    <img src="assets/icons/phone.svg" alt="phone">
+    <input type="number" placeholder="Ваш телефон">
+  </label>
+  <label class="subject-fields-mobile">
+    <span class="sub">Тема</span>
+    <input type="text" class="def-fields-input-mobile" placeholder="О чем мой запрос..." >
+  </label>
+</div>
+
+
+<div>
+  <pre>
+  <code class="language-html">
+    <xmp>
+<nav class="navbar">
+  <div class="navbar-content">
+    <a href="index.html">
+      <img src="assets/images/logo-site.svg" alt="logo site">
+    </a>
+
+    <div class="navbar-items">
+      <a href="#" class="navbar-item">
+        <i class="icon" data-name="users"></i>
+        Подписчики
+      </a>
+      <a href="#" class="navbar-item">
+        <i class="icon" data-name="money-cash"></i>
+        Операции
+      </a>
+      <a href="#" class="navbar-item">
+        <i class="icon" data-name="shipping-box"></i>
+        Продукты
+      </a>
+      <div class="profile-dropdowns menu">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="more-menu"></i>
+          Еще
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/analytic.svg" alt="energi" class="profile-dropdowns-toggle-icon">
+            Аналитика
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/settigns.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Настройки
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-usr-info">
+      <a href="#">
+        <div class="rocket-icon active">
+          <img src="assets/icons/rocket.svg" alt="rocket" class="rocket-icon-green">
+          <img src="assets/icons/rocket-black.svg" alt="rocket" class="rocket-icon-black">
+        </div>
+      </a>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="help"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/energi.svg" alt="energi" class="profile-dropdowns-toggle-icon">
+            Мастер быстрой настройки
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/book.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            База знаний Ainox
+          </a>
+          <div class="profile-dropdowns-toggle-title">Справочная информация</div>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/send-message.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Поддержка в Telegram
+          </a>
+          <a href="#" class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/help.svg" alt="help" class="profile-dropdowns-toggle-icon">
+            Диалоги с поддержкой
+          </a>
+          <button class="btn-black">
+            <img src="assets/icons/quation.svg" alt="quation" class="profile-dropdowns-toggle-icon">
+            Создать обращение
+          </button>
+        </div>
+      </div>
+
+      <div class="profile-dropdowns">
+        <div class="profile-dropdowns-icon">
+          <i class="icon" data-name="user-profile"></i>
+        </div>
+        <div class="profile-dropdowns-toggle">
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Ночной режим
+          </div>
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/dark-mode.svg" alt="icon" class="profile-dropdowns-toggle-icon">
+            Выйти
+          </div>
+          <div class="profile-dropdowns-toggle-item">
+            <img src="assets/icons/remove-account.svg" alt="book" class="profile-dropdowns-toggle-icon">
+            Удалить аккаунт
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+<div class="mobile-menu-item-toggle" id="more">
+  <a href="#" class="mobile-menu-item-toggle-item">
+    <img src="assets/icons/analytic.svg" alt="icon">
+    Аналитика
+  </a>
+  <a href="#" class="mobile-menu-item-toggle-item">
+    <img src="assets/icons/settigns.svg" alt="icon">
+    Настройки
+  </a>
+</div>
+
+<div class="mobile-menu">
+  <a href="#" class="mobile-menu-item">
+    <i class="icon" data-name="users"></i>
+    Подписчики
+  </a>
+  <a href="#" class="mobile-menu-item active">
+    <i class="icon" data-name="money-cash"></i>
+    Операции
+  </a>
+  <a href="#" class="mobile-menu-item">
+    <i class="icon" data-name="shipping-box"></i>
+    Продукты
+  </a>
+  <div class="mobile-menu-item" data-toggle="more">
+    <i class="icon" data-name="more-menu"></i>
+    Еще
+  </div>
+</div>
+    </xmp>
+  </code>
+</pre>
+</div>
+
+
+<script src="js/mask-data.js"></script>
+<script src="js/fastfront.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
